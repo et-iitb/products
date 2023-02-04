@@ -1,0 +1,407 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GeoSolvAR: Geometry of Solids via Augmented Reality</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FreeHTML5.co" />
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta http-equiv="cache-control" content="max-age=200"/>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+<script src="jquery-3.2.1.min.js" type="text/javascript" language="javascript" charset="utf-8"></script> <!-- Important -->
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+			<h1 id="fh5co-logo"><a href="index.html"><img src="images/logo.png" alt="Free HTML5 Bootstrap Website Template"></a></h1>
+			<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+					<li class="fh5co-active"><a href="index.html">Home</a></li>
+					
+				</ul>
+			</nav>
+
+			<div class="fh5co-footer">
+				
+			</div>
+
+		</aside>
+
+		<div id="fh5co-main">
+
+			<div class="fh5co-narrow-content">
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">GeoSolvAR: <br>Geometry of Solids via Augmented Reality <span></span></h2>
+                
+                <style type="text/css">
+
+* { margin: 0px; padding: 0px; }
+
+.slide16 { position:relative; margin: auto; width: 1280px; height: 400px; }
+  
+
+
+.viewrap { position:relative; top: 0px; height: 400px; width: 1280px; z-index: 10px; }
+
+.frontview { position: relative; float: left; left: 5px; background: url("Front View.png"); background-repeat: no-repeat; height: 347px; width: 177px; z-index: 10px;
+-webkit-animation-delay: 2.0s; animation-delay: 2.0s; -webkit-animation-duration: 1.0s; animation-duration: 1.0s; }
+
+.topview { position: relative; top: 65px; float: left; left: 120px; background: url("Top View.png"); background-repeat: no-repeat; height: 286px; width: 270px; z-index: 10px;
+-webkit-animation-delay: 2.0s; animation-delay: 2.0s; -webkit-animation-duration: 1.0s; animation-duration: 1.0s; }
+
+.sideview { position:relative; float: left; left: 160px; background: url("Side View.png"); background-repeat: no-repeat; height: 347px; width: 250px; z-index: 8px;
+-webkit-animation-delay: 2.0s; animation-delay: 2.0s;-webkit-animation-duration: 1.0s; animation-duration: 1.0s; }
+
+.view { position: relative;float: left; left: 180px; background: url("3D View.png"); background-repeat: no-repeat; height: 400px; width: 368px; z-index: 12px;
+-webkit-animation-delay: 3.8s; animation-delay: 3.8s; -webkit-animation-duration: 1.5s; animation-duration: 1.5s; }
+
+@charset "UTF-8";
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    transform: scale3d(.97, .97, .97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bounceIn {
+  animation-name: bounceIn;
+}
+
+@keyframes flipInXY {
+  from {
+    transform: perspective(800px) rotate3d(1, 0, 1, 180deg);
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: perspective(800px) rotate3d(1, 0, 1, 360deg);
+    animation-timing-function: ease-in;
+  }
+  
+    to {
+    transform: perspective(800px) rotate3d(1, 0, 0, 360deg);
+    animation-timing-function: ease-in;
+  }
+}
+
+.flipInXY {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipInXY;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="slide16">
+	<div class="palettebg">
+		<div class="textwrap">
+			<div class="geotext animated fadeInDown"></div>
+			<div class="solvtext animated fadeInUp"></div>
+			<div class="artext animated flipInXY"></div>
+		</div>
+		<div class="viewrap">
+			<div class="frontview animated fadeInRight"></div>
+			<div class="topview animated fadeIn"></div>
+			<div class="sideview animated fadeInLeft"></div>
+			<div class="view animated bounceIn"></div>
+		</div>
+	</div>
+</section>
+	
+<script>
+
+	setTimeout(function() {
+	   $('.frontview').fadeIn(function(){
+		   $('.frontview').animate({left:520},500,function(){
+			  });   
+	  });	
+},3300);
+
+	setTimeout(function() {
+	   $('.sideview').fadeIn(function(){
+		   $('.sideview').animate({right:520},500,function(){
+			  });   
+	  });	
+},3300);
+
+	setTimeout(function() {
+	   $('.topview').fadeIn(function(){
+		   $('.topview').animate({right:1},500,function(){
+			  });   
+	  });	
+},3300);
+
+setTimeout(function() {
+	   $('.frontview, .topview, .sideview').hide();	
+},3700);
+
+</script>
+                
+                
+				<div class="row animate-box" data-animate-effect="fadeInLeft">
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="activity1_predict.html">
+							<img src="images/work_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<h3 class="fh5co-work-title">Activity 1</h3>
+							<p></p>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="activity2_predict.html">
+							<img src="images/work_2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<h3 class="fh5co-work-title">Activity 2</h3>
+							<p></p>
+						</a>
+					</div>
+					<div class="clearfix visible-sm-block"></div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="activity3_predict.html">
+							<img src="images/work_3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<h3 class="fh5co-work-title">Activity 3</h3>
+							<p></p>
+						</a>
+					</div>
+					<div class="clearfix visible-md-block"></div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="activity4_predict.html">
+							<img src="images/work_4.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<h3 class="fh5co-work-title">Activity 4</h3>
+							<p></p>
+						</a>
+					</div>
+					<div class="clearfix visible-sm-block"></div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="activity5_predict.html">
+							<img src="images/work_5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<h3 class="fh5co-work-title">Activity 5</h3>
+							<p></p>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="activity6_predict.html">
+							<img src="images/work_6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<h3 class="fh5co-work-title">Activity 6</h3>
+							<p></p>
+						</a>
+					</div>
+					<div class="clearfix visible-md-block visible-sm-block"></div>
+
+					
+					
+				</div>
+			</div>
+			
+			
+			
+
+
+			
+
+			
+			
+			
+			</div>
+
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+

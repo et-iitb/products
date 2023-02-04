@@ -1,0 +1,70 @@
+/*#fa, #people {
+	display: none;
+}
+*/
+
+.sidebar{
+	height: 100%; /* 100 percent full height*/
+	width: 225px; /* *0 width chagne this with javascript */
+	position: fixed;
+	z-index: 1; /* stay on top*/
+	top: 10; /* stay at the top */
+	left-margin: 10%;
+	background-color: #edeeee; /* BLACK */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* place content 60px from the top */
+	/*transition: 0.5s;*/ /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/*the navigation menu links*/
+.sidebar a {
+	/*padding: 8px 8px 8px 32px;*/
+	text-decoration: none;
+	font-size: 25px;
+	color: #000;
+	display: block;
+	transition: 0.3s;
+	left-margin: 10%;
+}
+
+/*on hover links change color */
+/*.sidebar a:hover {
+	color: #f1f1f1;
+}*/
+
+/*position and style of teh close button*/
+/*.sidebar .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}*/
+/*main page contecnt push to page to right when we open the navigation to right*/
+#main {
+	transition: margin-left .5s;
+	padding: 20px;
+}
+
+/*on smallaer screen , where height is less than 450 px, chagne the style of the sidebave (less padding and a samller font size)*/
+@media screen and (max-height: 450px) {
+	.sidebar {
+		padding-top: 15px;
+
+	}
+	.sidebar a{
+		font-size: 18px;
+	}
+}
+
+
+.side-panel ul ul li {
+    padding: 20px 20px;
+}
+
+/*.dropdown {
+	display: none;
+}
+*/
+
+

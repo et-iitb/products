@@ -1,0 +1,1892 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+@font-face{
+	font-family: RobotoR;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: cep_baner_u;
+  src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: cep_baner_l;
+  src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+  font-family: cep_table_h;
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: cep_table_s;
+  src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: cep_table_h;
+  src: url('../fonts/Poppins-Bold.ttf');
+}
+
+.width-container{
+	width: 87%;
+	margin: 0 auto;
+	padding: 0 13px;
+}
+.clearfix:after{clear:both;content:'.';display:block;visibility:hidden;height:0;font-size:0}
+.clearfix{display:block}
+* html .clearfix{height:1%}
+*+html .clearfix{display:inline-block}
+
+/*------Main Menu------*/
+#mob-menu{
+	width: 50%;
+	float: right;
+	text-align: right;
+	font: 18px/22px 'Roboto', sans-serif;
+	color: #29517f;
+	padding: 20px 0 30px;
+	cursor: pointer;
+	display: none;
+}
+#mob-menu img{
+	width: 5%;
+	position: relative;
+	top: 2px;
+}
+
+
+.about_lab .et-course-div .download_count1 p span{
+	
+	background: black; 
+	color: #ffff;
+	padding:0px 1px 0px 1px; 
+	display: inline-block;
+	text-align: center;
+	
+	
+}
+.about_lab .LOBE-diag .download_count2 span span{
+	
+	background: black; 
+	color: #ffff;
+	padding:0px 1px 0px 1px; 
+	display: inline-block;
+	text-align: center;
+}
+
+.main_menu{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	background-color: #edeeee;
+	
+}
+.main_menu .top_logo{display: inline-block;}
+.main_menu .top_logo img{ width: 40%;}
+.main_menu ul{
+	list-style: none;
+	display: inline-block;
+	float: right;
+	/*padding: 22px 0 22px;*/
+}
+
+/*content padding left*/
+.contentpara #pl {
+	padding-left: 5px !important;
+}
+.main_menu ul li{
+	display: inline-block;
+	padding: 20px 40px;
+	position: relative;
+}
+.main_menu ul li a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: #29517f;
+	padding: 0 0 5px;
+	font-size: 17px;
+}
+.main_menu ul li a.active{
+	border-bottom: 2px solid #29517f;
+}
+.main_menu ul li .sub-menu{
+	position: absolute;
+	width: 270px;
+	background-color: #fff;
+	border: 3px solid #29517f;
+	
+	left: -20%;
+	top: 50px;
+	display: none;
+}
+
+.main_menu ul li .sub-menu .submenu1 .sub-menu2 {
+	position: absolute;
+	width: 250px;
+	background-color: #fff;
+	border: 3px solid #29517f;
+	left: 20%;
+	top: 50px;
+	
+}
+.main_menu ul li:hover .sub-menu {display: block;}
+
+
+.main_menu ul li .sub-menu .col-1{
+	width: 100%;
+	float: left;
+	text-align: center;
+
+}
+
+.col-1 li ul {
+	display: none;
+}
+
+.col-1 ul li a {
+
+	
+
+	
+
+	text-decoration: none;
+
+	
+
+	color: #fff;
+
+}
+
+.col-1 li:hover > ul {
+
+  display: block;
+
+  position: absolute;
+
+}
+
+.col-1 ul ul {
+
+  left: 100%;
+
+  top: 0;
+}
+
+
+.main_menu ul li .sub-menu .col-1 ul li {
+	
+	color: #29517f;
+	text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+   
+    font-size: 14px;
+}
+
+
+
+.col-1 .sub-menu1 li ul {
+	
+    width: 252px;
+    background-color: #fff;
+    border: 3px solid #29517f;
+    
+    
+
+}
+
+.col-1 .sub-menu1 li img{
+	
+    float: right !important;
+    position: absolute;
+
+    right: 10px;
+  
+    
+
+}
+.col-1 .sub-menu1 li img:hover {
+
+}
+
+/*.col-1 .sub-menu1 li ul li ul a{
+	    
+   
+    text-decoration: none;
+    white-space: nowrap;
+   
+}*/
+
+
+
+
+.main_menu ul li .sub-menu .col-1 .sub-menu1 {
+	background:#fff;
+	
+}
+.main_menu ul li .sub-menu .col-1 .sub-menu1 ul li:hover {
+	background:#29517f;
+	color: #fff;
+}
+.main_menu ul li .sub-menu .col-1 ul li:hover, .col-1 .sub-menu1 ul li:hover  {
+	background:#29517f;
+	color: #fff;
+}
+
+.main_menu ul li .sub-menu .col-1 h5, .main_menu ul li .sub-menu .col-2 h5, .main_menu ul li .sub-menu .col-3 h5{
+	color: #29517f;
+	font: 18px/22px 'Roboto', sans-serif;
+	padding-bottom: 15px;
+	text-decoration: underline;
+}
+.main_menu ul li .sub-menu .col-1 ul, .main_menu ul li .sub-menu .col-2 ul, .main_menu ul li .sub-menu .col-3 ul{width: 100%;}
+.main_menu ul li .sub-menu .col-1 ul li, .main_menu ul li .sub-menu .col-2 ul li, .main_menu ul li .sub-menu .col-3 ul li{display: block;}
+.projects img{
+	width: 22px;
+	position: relative;
+	top: 6px;
+}
+/*------End Main Menu------*/
+
+/*------Header Image------*/
+.Main_image{padding-top: 4.5%; background-color: #eee;}
+.Main_image .et-logo, .Main_image .nxt-logo{
+	width: 20%;
+	float: left;
+}
+.Main_image .nerl{
+	width: 60%;
+	float: left;
+}
+.Main_image img{
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+.Main_image_sub{background-color: #fff;}
+.Main_image_sub .et-logo, .Main_image_sub .nxt-logo{
+	width: 20%;
+	float: left;
+}
+.Main_image_sub .nerl{
+	padding-top: 20px;
+	width: 60%;
+	float: left;
+}
+.Main_image_sub img{
+	
+	display: block;
+	margin: 0 auto;
+}
+/*------End Header Image------*/
+
+/*------About Lab------*/
+.about_lab{
+	padding-top: 40px;
+	background-color: #fbfbfb;
+}
+.about_lab .about-div{padding: 20px 0;}
+.about_lab .about-div h4{
+	font: 25px/29px RobotoR;
+	color: #575757;
+	position: relative;
+	font-weight: 100;
+}
+.about_lab .about-div h4:after{
+	content: '';
+	position: absolute;
+	width: 2%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+}
+.about_lab .about-div p{
+	font: 16px/20px RobotoR;
+	padding: 30px 0 10px;
+}
+
+.about_lab .about-div  .contentpara p{
+	font: 68px/20px RobotoR;
+	padding: 5px 10px;
+}
+.about_lab .about-div p:nth-child(3){padding: 10px 0; text-align: justify;}
+list-style: lower-roman;
+.about_lab .about-div ul{
+	padding-left: 10%; 
+	padding-right: 8%;
+}
+.about_lab .about-div .gvg-cont-div ul {
+	list-style-type: circle;
+}
+.about_lab .about-div ul li ul{
+	list-style: circle;
+}
+.about_lab .about-div ul li{
+	font: 16px/20px RobotoR;
+}
+.about_lab .about-div a{
+	text-decoration: none;
+	color: #2a6fd1;
+	font-family: 'Roboto', sans-serif;
+}
+.about_lab .about-div .GVG-div-corner a div span{
+	text-decoration: none;
+	
+}
+.about_lab .about-div .GVG-div-corner a div ul li{
+	text-decoration: none;
+	
+}
+.about_lab .about-div 
+.Tab-info{width: 100%;}
+.Tab-info .tab{
+	width: 30%;
+	background-color: #fff;
+	padding: 20px 0px;
+	float: left;
+	height: 486px;
+}
+.Tab-info .tab ul{list-style: none;}
+.Tab-info .tab ul li{color: #000;}
+.Tab-info .tab ul li a:after{
+	content: '';
+	position: absolute;
+	background-color: #000;
+	width: 0%;
+	height: 3px;
+	bottom: -5px;
+	left: 0;
+	transition: 0.3s ease-in-out;
+}
+.Tab-info .tab ul li a:hover:after{
+	content: '';
+	position: absolute;
+	background-color: #000;
+	width: 100%;
+	height: 3px;
+	bottom: -5px;
+	left: 0;
+	transition: 0.3s ease-in-out;
+}
+.Tab-info .tab ul li a{
+	text-decoration: none;
+	color: inherit;
+	
+	font: 16px/20px RobotoR;
+	
+	transition: .3s ease-in-out 0s;
+	position: relative;
+
+
+}
+
+.Tab-info .tab ul li
+{
+	padding: 40px 30px;
+}
+
+
+/*.Tab-info .tab ul li a:hover{
+	color: #000;
+	background-color: #fff;
+	}*/
+	.active-tab{
+		color: #000 !important;
+		background-color: #edeeee;
+
+	}
+
+	.Tab-info .tab h4{
+		padding: 20px 30px 25px;
+		font: 21px/25px RobotoR;
+		color: #000;
+		position: relative;
+	}
+	.Tab-info .tab h4:after{
+		content: '';
+		position: absolute;
+		width: 3%;
+		height: 3px;
+		bottom: 25px;
+		left: 32px;
+		background-color: #fff;
+	}
+	.Tab-info .tab-data{
+		width: 68%;
+		background-color: #fff;
+		padding: 20px 8px;
+		float: left;
+		height: 486px;
+
+		text-align: justify;
+	}
+	.Tab-info .tab-data p{
+
+		text-align: justify;
+	}
+	.Tab-info .tab-data h4{
+		padding: 20px 30px 25px;
+		font: 21px/25px RobotoR;
+		color: #000;
+		position: relative;
+	}
+	.Tab-info .tab-data h4:after{
+		content: '';
+		position: absolute;
+		width: 1.5%;
+		height: 3px;
+		bottom: 25px;
+		left: 32px;
+		background-color: #000;
+	}
+	.Tab-info .tab-data .tab-content p{
+		font: 16px/20px RobotoR;
+		padding: 5px 30px;
+		line-height: 24px;
+	}
+	.Tab-info .tab-data ul{
+		padding-left: 50px;
+	}
+
+}
+.Tab-info .tab-data .tab-content ul{}
+.Tab-info .tab-data .tab-content ul li{
+	text-decoration: none;
+	color: #000;
+	padding-top: 20px;
+	font: 16px/20px RobotoR;
+	
+	transition: .3s ease-in-out 0s;
+	list-style: circle;
+}
+.Tab-info .tab-data .tab-content ul li a{
+	text-decoration: none;
+	color: #2a6fd1;
+}
+#second, #third{
+	display: none;
+}
+/*------End About Lab------*/
+
+/*------People Tab------*/
+.People-Tab{
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.People-Tab .people-div h4{
+	font: 25px/29px RobotoR;
+	color: #575757;
+	position: relative;
+	font-weight: 100;
+	cursor: pointer;
+}
+.People-Tab .people-div h4:after{
+	content: '';
+	position: absolute;
+	width: 2%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+}
+.People-Tab .people-div h4 img{
+	position: relative;
+	top: 8px;
+	width: 30px
+}
+.people-div .People-slide{
+	padding: 35px 0px;
+	display: none;
+}
+.people-div .peopletab{
+	background-color: #e3f2ff;
+	padding: 30px 16px;
+	border-radius: 8px;
+	width: 80%;
+	margin: 2% 10%;
+}
+.peopletab .people-img{
+	display: block;
+	margin: 0 auto;
+	width: auto !important;
+}
+.peopletab .peoplename{
+	display: block;
+	font: 18px/22px 'Roboto', sans-serif;
+	color: #29517f;
+	text-align: center !important;
+	padding-top: 15px;
+	padding-bottom: 8px
+}
+.peopletab .peoplework{
+	display: block;
+	font: 24px/28px RobotoR;
+	color: #29517f;
+	text-align: center !important;
+	padding-bottom: 20px;
+	display: none;
+}
+.peopletab .contact-span-first{width: 100%; padding: 5px 0px;}
+.peopletab .contact-img{
+	width: 5% !important; 
+	margin: 0 auto;
+	display: inline !important;
+	position: relative;
+	top: 6px;
+}
+.peopletab .contact-span-email-text{width: 100%; text-align: center !important;}
+.peopletab .contact-span{
+	font: 18px/22px RobotoR;
+	display: inline;
+	color: #29517f;
+}
+.peopletab .people-title{
+	display: block;
+	font: 18px/22px 'Roboto', sans-serif;
+	color: #29517f;
+	text-align: center !important;
+	padding-top: 8px;
+	padding-bottom: 8px
+}
+.peopletab .people-anchor{text-align: center !important;}
+.peopletab a{
+	display: inline-block;
+	text-align: center !important;
+	font: 16px/20px RobotoR;
+	text-decoration: none;
+	color: #fff;
+	background-color: #29517f;
+	padding: 12px 28px;
+	border-radius: 50px; 
+	margin: 0 auto;
+}
+.owl-carousel .owl-prev{
+	position: absolute;
+	top: 45%;
+	left: -4%;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/left-arrow.png");
+}
+.owl-carousel .owl-next{
+	position: absolute;
+	top: 45%;
+	right: -4%;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/right-arrow.png");
+}
+.fa, .fas{
+	color: #29517f;
+}
+.owl-next .fa, .fas{color: transparent;}
+.owl-prev .fa, .fas{color: transparent;}
+/*------End People Tab------*/
+
+/*------Footer------*/
+.count-tab{
+	background-color: #eeeeee;
+	padding: 20px 0px;
+}
+.count-tab .sponsor-div, .count-tab .visit-div{
+	width: 50%;
+	float: left;
+	font: 16px/20px RobotoR;
+	color: #29	517f;
+}
+.count-tab .sponsor-div span{float: right;}
+.count-tab .sponsor-div span b, .count-tab .visit-div span b{
+	font-weight: 600;
+}
+footer{
+	background-color: #f6f6f6;
+	/*padding: 30px 0px;*/
+}
+footer .et-div{
+	width: 8%;
+	float: left;
+}
+footer .et-div img{
+	width: 70%;
+}
+footer .creative-div{
+	width: 75%;
+	float: left;
+}
+footer .creative-div p{
+	font: 17px/21px RobotoR;
+	color: #29517f;
+	padding: 50px 30px 20px 50px;
+}
+/*------End Footer------*/
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------ET611Tx Webpage----------------------------------------------------------------------*/
+.about_lab .overviewdiv h4{
+	font: 25px/29px 'Roboto', sans-serif;
+	color: #000;
+}
+.about-div .img-et, .about-div .et-course-div{
+	width: 50%;
+	float: left;
+	padding: 2% 0;
+}
+.about-div .et-course-div h6{
+	font: 26px/30px 'Roboto', sans-serif;
+	color: #575757;
+}
+.about-div .et-course-div ul{padding-left: 2%;}
+.about-div .et-course-div ul li{padding: 1%;}
+.about_lab .et61tab{
+	background: #f6f6f6;
+	padding: 30px 40px;
+	cursor: pointer;
+	position: relative;
+}
+
+.about_lab .img-et span a {
+	display: inline-block;
+	padding: 12px 28px;
+	background-color: #29517f;
+	text-decoration: none;
+	color: #fff !important;
+	font: 14px/18px RobotoR;
+	border-radius: 20px;
+}
+.about_lab .img-et img{
+	width: 90%;
+}
+.about_lab .et61tab h5{
+	font: 27px/31px RobotoR;
+	float: left;
+	color: #575757;
+}
+.about_lab .et61div h4{
+	font: 25px/29px 'Roboto', sans-serif;
+	color: #000;
+}
+.about_lab .et61tab img{
+	position: absolute;
+	top: 20px;
+	width: 50px;
+
+}
+.about_lab .et-course-div .counter-part{
+	padding-top: 2%;
+	padding-left: 2%;
+	font: 15px/19px RobotoR;
+	text-align: left !important;
+}
+.about_lab .et61div{display: none;}
+.about_lab .et61div span a{
+	display: inline-block;
+	padding: 12px 28px;
+	background-color: #29517f;
+	text-decoration: none;
+	color: #fff !important;
+	font: 14px/18px RobotoR;
+	border-radius: 20px;
+}
+/*-------------------------------------------------------End ET611Tx Webpage------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------ET611Tx Webpage----------------------------------------------------------------------*/
+.about-div .img-et, .about-div .et-course-div{
+	width: 50%;
+	float: left;
+	padding: 2% 0;
+}
+.about-div .et-course-div h6{
+	font: 21px/25px 'Roboto', sans-serif;
+	color: #000;
+}
+.about-div .et-course-div ul{padding-left: 2%;}
+.about-div .et-course-div ul li{padding: 1%;}
+.about_lab .et62tab{
+	background: #f6f6f6;
+	padding: 30px 40px;
+	cursor: pointer;
+	position: relative;
+}
+.about_lab .img-et img{
+	width: 90%;
+}
+.about_lab .et62tab h5{
+	font: 27px/31px RobotoR;
+	float: left;
+	color: #575757;
+}
+.about_lab .et62div h4{
+	font: 25px/29px 'Roboto', sans-serif;
+	color: #000;
+}
+.about_lab .et62tab img{
+	position: absolute;
+	top: 20px;
+	width: 50px;
+
+}
+.about_lab .et62div{display: none;}
+.about_lab .et62div span a{
+	display: inline-block;
+	padding: 12px 28px;
+	background-color: #29517f;
+	text-decoration: none;
+	color: #fff !important;
+	font: 14px/18px RobotoR;
+	border-radius: 20px;
+}
+/*-------------------------------------------------------End ET611Tx Webpage------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------LOBE Webpage-------------------------------------------------------------------------*/
+.about-div .LOBE-Text{width: 60%; float: left;}
+.about-div .LOBE-diag{width: 40%; float: left;}
+.about-div .LOBE-diag img{margin: 0 auto; display: block; width: 35%;}
+.about-div .LOBE-Text h2{
+	font: 25px/29px 'Roboto', sans-serif;
+	color: #000;
+	padding-bottom: 15px;
+}
+.about-div .LOBE-Text h6{font: 22px/26px RobotoR; padding-bottom: 5px; position: relative;}
+
+.LOBE-Text .first-sub{
+	padding: 20px 0 0 40px !important;
+	list-style: disc !important;
+}
+.LOBE-Text .first-sub ul{
+	padding: 10px 20px;
+}
+.about-div .LOBE-Text-2{padding-top: 2%;}
+.about-div .LOBE-Text-2 h6{
+	font: 22px/26px RobotoR; 
+	padding-bottom: 5px;
+}
+.about_lab .LOBE-diag{text-align: center !important;}
+.about_lab .LOBE-diag a{
+	padding: 10px 24px;
+	background-color: #29517f;
+	color: #fff !important;
+	font: 15px/19px RobotoR !important;
+	border-radius: 20px;
+	margin-top: 2%;
+	display: inline-block;
+	text-decoration: none;
+}
+.about_lab .LOBE-diag .counter-part{
+	padding-top: 2%;
+	font: 15px/19px RobotoR;
+	text-align: center !important;
+}
+.about-div .LOBE-Text-2 img{margin-top: 25px; width: 60%;}
+.about-div .LOBE-Text-2 .hidden-content{display: none;}
+.about-div .LOBE-Text-2 .hidden-content h5{
+	font: 22px/26px RobotoR;
+	padding: 10px 0;
+	color: #575757;
+}
+.about-div .LOBE-Text-2 .hidden-content .child-content{padding-left: 35px;}
+.about-div .LOBE-Text-2 .hidden-content .child-content p{padding-top: 15px;}
+.about-div .LOBE-Text-2 .hidden-content .child-content ul{list-style: lower-latin;}
+.about-div .LOBE-Text-2 .hidden-content .child-content ul li ul{list-style: disc;}
+.about-div .LOBE-Text-2 .hidden-content .child-content ul li{
+	font: 16px/20px RobotoR;
+	color: #000;
+}
+.about-div .LOBE-Text-2 .first-sub {
+	padding-top: 2%;
+}
+.about-div .LOBE-Text-2 .hidden-content .child-content .diff-1{padding: 20px 0px; width: 50%;}
+.about-div .LOBE-Text-2 .hidden-content .child-content .diff-1 .header-diff{
+	background-color: #29517f;
+	padding: 20px 20px;
+	color: #fff;
+}
+.about-div .LOBE-Text-2 .hidden-content .child-content .diff-1 .header-diff span{
+	color: inherit; 
+	width: 50%; 
+	float: left;
+	font: 16px/20px RobotoR;
+}
+.about-div .LOBE-Text-2 .hidden-content .child-content .diff-1 .content-diff{
+	background-color: #f9f9f9;
+	padding: 20px;
+}
+.about-div .LOBE-Text-2 .hidden-content .child-content .diff-1 .content-diff span{
+	color: #000;
+	width: 50%;
+	float: left;
+	font: 16px/20px RobotoR;
+}
+.about-div .LOBE-Text-2 .hidden-content .child-content .diff-1 .content-diff .cont-1, .about-div .LOBE-Text-2 .hidden-content .child-content .diff-1 .content-diff .cont-2,
+.about-div .LOBE-Text-2 .hidden-content .child-content .diff-1 .content-diff .cont-3{
+	padding: 8px 0px;
+}
+.about-div .readbtn, .about-div .readbtn-2, .about-div .readbtn-3, .about-div .readbtn-4, 
+.about-div .readbtn-5, .about-div .readbtn-6, .about-div .readbtn-7{
+	padding: 10px 24px;
+	background-color: #29517f;
+	color: #fff !important;
+	font: 15px/19px RobotoR !important;
+	border-radius: 20px;
+	margin-top: 2%;
+	display: inline-block;
+	text-decoration: none;
+}
+.about_lab .lobetab{
+	background: #f6f6f6;
+	padding: 30px 40px;
+	cursor: pointer;
+	position: relative;
+}
+.about_lab .lobetab h5{
+	font: 27px/31px RobotoR;
+	float: left;
+	color: #575757;
+}
+.about_lab .lobetab img{
+	position: absolute;
+	top: 20px;
+	width: 50px;
+}
+.about_lab .lobediv{display: none;}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------TEC Webpage-------------------------------------------------------------------------*/
+.about-div .TEC h4{
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+}
+.about-div .TEC h6{
+	font: 22px/26px RobotoR;
+	padding: 38px 0 0;
+	color: #000;
+}
+.TEC-div .science-div, .TEC-div .mathe-div{
+	width: 18%;
+	float: left;
+}
+.TEC-div span a{
+	display: inline-block;
+	padding: 12px 28px;
+	background-color: #29517f;
+	text-decoration: none;
+	color: #fff !important;
+	font: 14px/18px RobotoR;
+	border-radius: 20px;
+}
+.about_lab .tectab{
+	background: #f6f6f6;
+	padding: 30px 40px;
+	cursor: pointer;
+	position: relative;
+}
+.about_lab .tectab h5{
+	font: 27px/31px RobotoR;
+	float: left;
+	color: #575757;
+}
+.about_lab .tectab img{
+	position: absolute;
+	top: 20px;
+	width: 50px;
+}
+.about_lab .tecdiv{display: none;}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------Intrumental Webpage------------------------------------------------------------------*/
+.about_lab .overviewtab{
+	background: #f6f6f6;
+	padding: 30px 40px;
+	cursor: pointer;
+	position: relative;
+}
+.about_lab .overviewtab h5{
+	font: 27px/31px RobotoR;
+	float: left;
+	color: #575757;
+}
+.about_lab .overviewtab img{
+	position: absolute;
+	top: 20px;
+	width: 50px;
+}
+.about_lab .overviewdiv{display: none;}
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------Contact Webpage------------------------------------------------------------------*/
+.about_lab .contacttext, .about_lab .contactmap{
+	width: 50%;
+	float: left;
+}
+.about_lab .contacttext h4{
+	font: 20px/24px 'RobotoR';
+	padding-left: 5%;
+	position: relative;
+	padding-top: 10px;
+}
+.about_lab .contacttext h4:after{
+	left: 5%;
+}
+.about_lab .contacttext span{
+	display: block;
+	padding-left: 5%;
+	padding-top: 1%;
+	padding-bottom: 1.5%;
+	font: 15px/19px 'RobotoR';
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------GVG Webpage------------------------------------------------------------------*/
+.fullblk{
+	/*height: 65vh;*/
+}
+.side-panel{
+	width: 20%;
+	float: left;
+	/*position: fixed;*/
+}
+.side-panel ul{
+	text-decoration: none;
+	list-style: circle;
+	padding: 20px 0;
+}
+.side-panel ul li{padding: 20px 20px;}
+.slidepanelactive{background-color: #edeeee;}
+.side-panel ul li a{
+	color: #000;
+	text-decoration: none;
+	font: 18px/22px 'Roboto', sans-serif;
+	position: relative;
+}
+.side-panel ul li a:after{
+	content: '';
+	position: absolute;
+	background-color: #000;
+	width: 0%;
+	height: 3px;
+	bottom: -5px;
+	left: 0;
+	transition: 0.3s ease-in-out;
+}
+.side-panel ul li a:hover:after{
+	content: '';
+	position: absolute;
+	background-color: #000;
+	width: 100%;
+	height: 3px;
+	bottom: -5px;
+	left: 0;
+	transition: 0.3s ease-in-out;
+}
+.GVG-block, .Chemblock{
+	width: 80%;
+	float: right;
+	/*height: 65vh;
+	overflow-y: scroll; */
+	padding-top: 0;
+}
+.about_lab .gvg-div h4{
+	font: 22px/26px RobotoR;
+	color: #000;
+	padding-top: 10px;
+}
+.about_lab .gvg-div h3{
+	font: 27px/31px 'Roboto', sans-serif;
+	color: #000;
+	padding-top: 10px;
+	position: relative;
+}
+.about_lab .gvg-div h3:after{
+	content: '';
+	position: absolute;
+	width: 2%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+}
+.gvg-div span{
+	padding: 10px 0;
+	display: block;
+	font: 22px/26px RobotoR;
+}
+.gvg-div .gvg-content{padding: 15px 0;}
+.gvg-content .gvg-cont-div span{
+	font: 16px/20px 'RobotoR';
+	/*text-align: center !important;*/
+}
+.gvg-content .gvg-cont-div ul{padding: 10px 30px;}
+
+.gvg-content .gvg-cont-div #spanpadd{padding: 10px 30px;}
+.gvg-content .gvg-cont-div ul li{font: 16px/20px 'RobotoR'; text-align: left !important;}
+.gvg-content .more-cont ul{list-style: circle; padding-bottom: 0;}
+.gvg-cont-div .more-cont ul li{color: #575757;}
+.gvg-cont-div .more-cont ul.OS-sys{padding-top: 0; list-style: disc;}
+.gvg-cont-div .downloadzip{
+	padding: 10px 24px;
+	background-color: #29517f;
+	color: #fff !important;
+	font: 12px/16px RobotoR !important;
+	border-radius: 20px;
+	margin-top: 0.5%;
+	display: inline-block;
+	text-decoration: none;
+}
+.gvg-cont-div .guid-ul{padding-top: 20px !important;}
+.gvg-cont-div .guid-ul ul{list-style: circle;}
+.GVG-div-corner{width: 100%; margin: 0 auto;}
+.GVG-div-corner .teacher-corner, .GVG-div-corner .researcher-corner, .GVG-div-corner .developer-corner{
+	width: 28%;
+	margin: 1%;
+	float: left;
+	text-align: center !important;
+	border-radius: 10px;
+	padding: 10%;
+	cursor: pointer;
+	border: 2px Solid black;
+	height: 245px;
+	padding: 1%;
+	transition: transform .2s;
+}
+
+.GVG-div-corner .teacher-corner img, .GVG-div-corner .researcher-corner img, .GVG-div-corner .developer-corner img{
+	width: 30%;
+}
+
+.GVG-div-corner .teacher-corner:hover, .GVG-div-corner .researcher-corner:hover, .GVG-div-corner .developer-corner:hover{
+	/*width: 31.98%;*/
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.1); 
+	/*background-color: #29517f;*/
+	color: #29517f;
+}
+
+
+}
+.GVG-div-corner .teacher-corner span:nth-child(1) {
+	padding-left: 100px;
+}
+
+.Onclick-corner{
+	background-color: #edeeee;
+	/*color: #fff !important;*/
+}
+.GVG-div-corner span{font-weight: bold !important; font: 16px/20px RobotoR !important; text-align: center !important;}
+.GVG-div-corner .contentpara p{font-weight: bold !important; font: 16px/20px RobotoR !important; text-align: left !important;}
+/*.GVG-div-corner ul{list-style: none !important;}*/
+.gvg-tab-cnt{padding-top: 20px;}
+.gvg-tab-cnt .teacher-tab, .gvg-tab-cnt .researcher-tab, .gvg-tab-cnt .developer-tab{
+	padding: 10px 20px 20px;
+	background-color: #edeeee;
+} 
+.gvg-tab-cnt h6{
+	font: 19px/23px RobotoR;
+	padding-top: 8px;
+}
+.gvg-tab-cnt p{
+	font: 16px/20px RobotoR !important;
+}
+#Purpose span{
+	text-align: left !important;
+}
+.gvg-tab-cnt .manual-tab .c1-div, .gvg-tab-cnt .manual-tab .c2-div,
+.gvg-tab-cnt .manual-tab .c3-div{
+	width: 33.33%;
+	float: left;
+	text-align: center !important;
+}
+.gvg-tab-cnt .researcher-tab, .gvg-tab-cnt .developer-tab{ display: none; text-align: justify; }
+.gvg-tab-cnt .manual-tab .c1-div img, .gvg-tab-cnt .manual-tab .c2-div img,
+.gvg-tab-cnt .manual-tab .c3-div img{width: 70%; margin: 0 auto; display: block;}
+.gvg-tab-cnt .manual-tab .c1-div a, .gvg-tab-cnt .manual-tab .c2-div a,
+.gvg-tab-cnt .manual-tab .c3-div a{
+	display: inline-block;
+	padding: 10px 24px;
+	background-color: #29517f;
+	color: #fff !important;
+	font: 12px/16px RobotoR !important;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.about-div .et-course-div1 ol li {
+	padding: 1%;
+	font: 16px/20px RobotoR;
+	text-align: justify;
+}
+
+.about-div .et-course-div1  ol {
+
+	padding: 10px 0px 10px 20px;
+}
+.gvg-tab-cnt .researcher-tab span{
+	display: inline-block !important;
+}
+.about_lab .about-div p #justify1 {
+	text-align: justify !important;
+}
+.gvg-tab-cnt .researcher-tab ul{list-style: disc;}
+.gvg-tab-cnt .researcher-tab p{padding-top: 5px; !important}
+/*.gvg-tab-cnt .developer-tab, .gvg-tab-cnt .researcher-tab{display: none;}*/
+.gvg-tab-cnt .researcher-tab p span,
+.gvg-tab-cnt .researcher-tab ul li span{
+	color: #575757;
+	font-weight: bold;
+} 
+
+.publications {
+	font: 16px/20px RobotoR;
+	padding: 5px 30px;
+	line-height: 24px;
+}
+
+.publications ol {
+	padding-left: 50px;
+	text-align: justify;
+}
+.publications ol li{
+	line-height: 24px;
+	padding: 10px 0px 10px 10px;
+}
+.gvg-tab-cnt .researcher-tab p{
+	padding-left: 20px;
+}
+.gvg-tab-cnt .researcher-tab hr{
+	width: 80%;
+	margin: 2% auto;
+	border: 1px solid #ccc;
+}
+.gvg-tab-cnt .researcher-tab .fut-head{
+	font-weight: bold;
+	padding: 10px 0;
+	list-style: circle;
+	font: 15px/19px RobotoR;
+}
+.about-div .gvg-content .gvg-cont-div ul li{
+	/*text-align: justify !important;*/
+}
+.gvg-tab-cnt .researcher-tab .future-heading{
+	padding-top: 15px;
+	color: #575757;
+	font-weight: bold;
+}
+.gvg-tab-cnt .researcher-tab h6, .gvg-tab-cnt .developer-tab h6, .gvg-tab-cnt .teacher-tab h6{
+	color: #575757;
+	font-weight: bold;
+}
+.gvg-tab-cnt .developer-tab .readme{
+	display: inline-block;
+	padding: 10px 24px;
+	background-color: #29517f;
+	color: #fff !important;
+	font: 12px/16px RobotoR !important;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.about-div .gvg-content .gvg-cont-div .readme{
+	display: inline-block;
+	padding: 10px 24px;
+	background-color: #29517f;
+	color: #fff !important;
+	font: 12px/16px RobotoR !important;
+	border-radius: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+.gvg-tab-cnt .developer-tab .readme img{
+	width: 15px;
+}
+#Resources, #Getting, #Purpose, #et, #tcb, #ei, #Getting4,#Getting5,#Getting6{display: none;}
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------Stereochem Webpage------------------------------------------------------------------*/
+.Chemblock{
+	width: 80%;
+	float: right;
+}
+.gvg-tab-cnt .manual-tab .s1-div, .gvg-tab-cnt .manual-tab .s2-div,
+.gvg-tab-cnt .manual-tab .s3-div{
+	width: 50%;
+	float: left;
+	text-align: center !important;
+}
+.gvg-tab-cnt .manual-tab .s1-div img, .gvg-tab-cnt .manual-tab .s2-div img,
+.gvg-tab-cnt .manual-tab .s3-div img{width: 70%; margin: 0 auto; display: block;}
+.gvg-tab-cnt .manual-tab .s1-div a, .gvg-tab-cnt .manual-tab .s2-div a,
+.gvg-tab-cnt .manual-tab .s3-div a{
+	display: inline-block;
+	padding: 10px 24px;
+	background-color: #29517f;
+	color: #fff !important;
+	font: 12px/16px RobotoR !important;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.about_lab .about-div .TEC ul {
+	padding-left: 5% !important;
+}
+.about_lab .about-div .LOBE-Text-2 #lobe-text-4{
+	padding-left: 5% !important;
+}
+.about-div .LOBE-Text-2 .indent {
+
+	padding-left: 50px;
+}
+
+.about-lab .about-div .gvg-tab-cnt .researcher-tabc h6{
+	color: #575757 !important;
+	font-weight: bold !important;
+}
+
+.about-lab .about-div .gvg-tab-cnt .researcher-tabc h6 {
+	font: 19px/23px RobotoR !important;
+	padding-top: 8px !important;
+}
+
+#researcher-corner-div h6 {
+	color: #575757 !important;
+
+	font: 19px/23px RobotoR !important;
+	padding-top: 8px !important;
+
+}
+
+#researcher-corner-div ul li span{  
+	color: #575757;
+	font-weight: bold;
+}
+#researcher-corner-div p span{  
+	color: #575757;
+	font-weight: bold;
+}
+#researcher-corner-div ul
+{
+
+	padding: 10px 30px;
+}
+
+#researcher-corner-div span {
+	display: inline-block !important;
+}
+
+#researcher-corner-div p {
+	padding-left: 20px;
+}
+
+#researcher-corner-div .fut-head{
+	font-weight: bold;
+	padding: 10px 0;
+	list-style: circle;
+	font: 15px/19px RobotoR;
+}
+
+.gvg-content .gvg-cont-div ol li{
+	padding: 10px 30px 0px 10px;
+}
+
+.gvg-content .gvg-cont-div ol li {
+	font: 16px/20px 'RobotoR';
+	text-align: justify !important;
+
+}
+.gvg-content .gvg-cont-div ol {
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.gvg-content .dch a {
+	display: inline-block;
+	padding: 12px 28px;
+	background-color: #29517f;
+	text-decoration: none;
+	color: #fff !important;
+	font: 14px/18px RobotoR;
+	border-radius: 20px;
+}
+
+#Getting ul li{
+	font: 16px/20px 'RobotoR';
+	padding: 10px 30px 0px 10px;
+}
+#Getting4 ul li{
+	font: 16px/20px 'RobotoR';
+	padding: 10px 30px 0px 10px;
+}
+#Getting5 ul li{
+	font: 16px/20px 'RobotoR';
+	padding: 10px 30px 0px 10px;
+}
+#Getting6 ul li{
+	font: 16px/20px 'RobotoR';
+	padding: 10px 30px 0px 10px;
+}
+
+.gvg-content #Getting p {
+	padding: 0px;
+}
+.gvg-content #Getting4 p {
+	padding: 0px;
+}
+.gvg-content #Getting5 p {
+	padding: 0px;
+}
+.gvg-content #Getting6 p {
+	padding: 0px;
+}
+
+#dch {
+	padding-left: 30px;
+}
+/*.footer {
+	 background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+    }*/
+    #footer
+    {
+    	clear: both;
+    	border: 1px groove #aaaaaa;
+
+    	padding: 0;
+    	text-align: center;
+    	vertical-align: middle;
+    	line-height: normal;
+    	margin: 0;
+    	position: fixed;
+    	bottom: 0px;
+    	width: 100%;
+    }
+/*
+
+.about_lab .width-container .Tab-info .tab  a:after{
+
+	    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 0%;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    transition: 0.3s ease-in-out;
+    }*/
+
+    /* landing page */
+
+    .about-div .about-heading img
+    {
+    	position: relative;
+    	top: 8px;
+    	width: 30px;
+    }
+    .about-div .about-usp ul li
+    {
+    	text-decoration: none;
+    	color: #000;
+    	/*padding-top: 20px;*/
+    	font: 16px/20px RobotoR;
+    	transition: .3s ease-in-out 0s;
+    	list-style: circle;
+    	padding: 20px 0px 0px 5px;
+    }
+    .about-div .about-usp  ul {
+    	padding-left: 50px;
+    	list-style: circle;
+    }
+    .about-div .about-heading h4
+    {
+    	font: 25px/29px RobotoR;
+    	color: #575757;
+    	position: relative;
+    	font-weight: 100;
+    }
+
+    /*et611tx.html*/
+    .bottom
+    {
+    	/*padding-bottom: 170px;*/
+    	padding-bottom: 11%;
+    }
+
+    .gvg-content .bottom
+    {
+    	/*padding-bottom: 170px;*/
+    	padding-bottom: 18% !important;
+    }
+
+
+    /*tcd*/
+
+    .padding {
+    	padding: 0px 0px 20px 0px;
+    }
+
+    .teacher-tab .imgpcd img {
+ 	/*width: 700px;
+ 	text-align: center;*/
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 75%;
+
+ }
+ .teacher-tab .imgpcd p {
+ 	/*width: 700px;
+ 	text-align: center;*/
+ 	text-align: center;
+ 	
+ 	font-size: 12px !important;
+ 	display: block;
+
+ }
+ .teacher-tab .imgpcd a
+ {
+ 	display: inline-block;
+ 	padding: 10px 24px;
+ 	background-color: #29517f;
+ 	color: #fff !important;
+ 	font: 12px/16px RobotoR !important;
+ 	border-radius: 20px;
+ 	text-decoration: none;
+ 	text-align: center;
+ }
+
+ /*Blocks Corners*/
+/*.blocks {
+	float: left !important;
+  width: 30% !important;
+  padding: 50px !important;
+  background-color:none !important;
+
+
+  }*/
+}
+
+.GVG-div-corner .blocks:hover {
+	-ms-transform: scale(1.5) !important; /* IE 9 */
+	-webkit-transform: scale(1.5) !important; /* Safari 3-8 */
+	transform: scale(1.5) !important; 
+}
+.fullblk .side-panel #drop1 {
+
+	display:block;
+	padding-left: 20px;
+	cursor: pointer;
+	transition: transform 0.1s;
+	
+}
+
+.fullblk .side-panel #drop1 ul{
+
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
+	
+}
+.side-panel #cursorid {
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+} 
+
+.about_lab .about-div .gvg-cont-div .tab-content ul li {
+	text-decoration: none;
+	color: #000;
+	padding-top: 20px;
+	font: 16px/20px RobotoR;
+	transition: .3s ease-in-out 0s;
+	list-style: circle;
+}
+
+/*people page*/
+
+.pi {
+	display: flex;
+	font: 16px/20px RobotoR;
+}
+.pi div{
+
+	
+
+}
+.pi1 {
+	float: left;
+	width: 50%;
+	display: inline-block;
+}
+
+.pi2 {
+	float: right;
+	width: 50%;
+	display: inline-block;
+}
+
+.about-div .peopleh4 h4:after {
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+}
+
+/*Resouces */
+
+.table-users th{
+	padding: 20px;
+	font: 16px/20px RobotoR;    
+	text-align: center;
+}
+
+.table-users td{
+	padding: 20px;
+	font: 16px/20px RobotoR;
+	text-align: center;
+}
+
+.table-users table{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table-users img {
+    height: 150px;
+    width: 150px;
+}
+
+/*lobe.html 1*/
+
+.gvg-div .lobe1 ol {
+	 font: 22px/26px RobotoR;
+	 color: #000;
+    padding-top: 10px;
+    padding-left: 30px;
+    
+}
+.gvg-div .lobe1 ol li{
+	 
+	 color: #000;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+    
+}
+
+.gvg-div .lobe1 ul{
+	 font: 16px/20px RobotoR !important;
+	
+    padding-top: 10px;
+    
+    
+}
+
+
+
+
+/*.gvg-div .lobe1 ol li{
+	 font: 22px/20px RobotoR;
+	 color: #000;
+    padding-top: 10px;
+    padding-left: 10px !important;
+    
+}*/
+
+
+/*lobe.html 2*/
+
+.lobe1 .lobe2 ol {
+	font: 22px/26px RobotoR;
+	 color: #000;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.lobe1 .lobe2 ol li{
+	  font: 16px/20px RobotoR !important;
+	 color: #000;
+    
+    padding-left: 10px;
+    
+    
+}
+
+.lobe1 .lobe2 p{
+	  font: 16px/20px RobotoR !important;
+	 color: #000;
+    padding-top: 10px !important;
+    padding-bottom: 0px !important;
+    padding-left: 10px;
+    
+    
+}
+
+.lobe1 .lobe2 ol li ol{
+	padding-top: -10px;   
+}
+
+.lobe1 .lobe2  td, th, tr{
+  border: 1px solid black;
+  padding: 10px 10px 10px 10px;
+
+}
+
+/*lobe.html 3*/
+
+.lobe1 .lobe3  td, th, tr{
+  border: 1px solid black;
+  padding: 10px 10px 10px 10px;
+   font: 16px/20px RobotoR !important;
+
+}
+
+.lobe1 .lobe3 ol li{
+	 font: 16px/20px RobotoR !important;
+}
+
+/*lobe.html lobe 4*/
+.lobe1 .lobe4 ol li{
+	 font: 16px/20px RobotoR !important;
+}
+
+/*lobe.html target users lobe5*/
+
+.gvg-content .gvg-cont-div .lobe5 ol li{
+	 font: 22px/25px RobotoR !important;
+}
+
+/*lobe.html target users lobe5*/
+
+.gvg-content .gvg-cont-div .lobe5 ol li ul li{
+	 font: 16px/20px RobotoR !important;
+}
+
+.gvg-content .gvg-cont-div .lobe5 .lobe6 ol li{
+	 font: 16px/20px RobotoR !important;
+}
+
+/*Download LOBE*/
+
+
+
+.about_lab .gvg-div .gvg-content .lobe_download p{
+	padding: 10px 0px 10px 20px !important;
+}
+
+.about_lab .gvg-div .gvg-content .lobe_download table{
+	padding-left: 20px;
+	
+}
+
+.about_lab .gvg-div .gvg-content .lobe_download td, th, tr{
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+	
+}
+/*lob.html user manual */
+.about_lab .gvg-div .gvg-content .lobe7 p{
+	padding: 10px 0px 10px 20px !important;
+}
+/*lobe.html Development Process lobe8*/
+.about_lab .gvg-div .gvg-content .lobe8 p{
+	padding: 10px 0px 10px 20px !important;
+}
+
+.about_lab .gvg-div .gvg-content .lobe8 span{
+	text-align: center;
+	padding-right: 25%;
+	
+}
+
+.about_lab .gvg-div .gvg-content .lobe9 p{
+	padding: 10px 0px 10px 20px !important;
+}
+
+.about_lab .gvg-div .gvg-content .lobe9  img{
+	border: 1;
+}
+
+.about_lab .gvg-div .gvg-content .lobe9 span{
+	text-align: center;
+	padding-right: 25%;
+	
+}
+
+/*tec download*/
+.gvg-content .gvg-cont-div .tec_download table{
+	margin-left: 50px;
+}
+
+.gvg-content .gvg-cont-div .tec_download td, th, tr{
+	padding:10px 10px 10px 10px;
+}
+
+
+/*more and less*/
+#more {display: none;}
+
+
+.about_lab .about-div .lobe1 a{
+
+	padding: 10px 24px;
+    background-color: #29517f;
+    color: #fff !important;
+    font: 12px/16px RobotoR !important;
+    border-radius: 20px;
+    margin-top: 0.5%;
+    display: inline-block;
+}
+
+/*back to top*/
+
+.about_lab .backtotop #myBtn {
+display: none;		 /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #29517f; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+
+}
+
+ .about_lab .backtotop #myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.home-btn {
+    background: #1665c1;
+    border: 2px solid #1665c1;
+    padding: 0.2em 1em;
+}
+
+/*Css for CEP webpage*/
+
+.container_cep {
+  position: relative;
+  text-align: center;
+ 
+}
+
+
+.text_cep {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.carousel {
+    margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+}
+/* Reposition the controls slightly */
+.carousel-control {
+	left: -12px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+.carousel-indicators .active {
+background: #333333;
+}
+
+.container_slider {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.centered_text_slider {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.item ul li div img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

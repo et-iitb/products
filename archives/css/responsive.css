@@ -1,0 +1,161 @@
+
+/*-------Media query for 1600px------*/
+
+@media only screen and (max-width: 1600px){
+	/*.Main_image img{width: 60%;}*/
+	.Main_image{padding-top: 6%;}
+	.Tab-info .tab{}
+	footer .creative-div p{padding: 14px 30px 20px 50px;}
+	.TEC-div .science-div, .TEC-div .mathe-div{width: 23%;}
+}
+
+/*-------Media query for 1380px------*/
+
+@media only screen and (max-width: 1380px){
+	.about_lab .about-div h4, .People-Tab .people-div h4{font: 23px/27px RobotoR;}
+	.about_lab .about-div p{font: 16px/20px RobotoR;}
+	.Tab-info .tab h4, .Tab-info .tab-data h4{font: 20px/24px RobotoR;}
+	.people-div .peopletab{margin: 2% 4%;}
+	.Tab-info .tab ul li a.active-tab, .Tab-info .tab-data .tab-content ul li{font: 15px/19px RobotoR;}
+	.People-Tab .people-div h4 img{top: 9px; width: 30px;}
+	.peopletab .peoplename, .peopletab .people-title{font: 17px/21px 'Roboto', sans-serif;}
+	.peopletab .peoplework{font: 22px/26px RobotoR;}
+	.peopletab .contact-img{top: 4px}
+	.peopletab .contact-span{font: 17px/21px RobotoR;}
+	.peopletab a{font: 13px/17px RobotoR;}
+	.count-tab .sponsor-div, .count-tab .visit-div{font: 15px/19px RobotoR;}
+	footer .et-div, footer .nxt-div{width: 10%;}
+	.TEC-div .science-div, .TEC-div .mathe-div{width: 27%;}
+	footer .creative-div p{font: 15px/19px RobotoR;}
+	.about_lab .overviewtab h5, .about_lab .lobetab h5, .about_lab .tectab h5, .about_lab .et61tab h5, .about_lab .et62tab h5{font: 23px/27px RobotoR;}
+	.about-div .LOBE-Text h2{font: 20px/24px 'Roboto', sans-serif;}
+	.about-div .LOBE-Text h6, .about-div .LOBE-Text-2 h6{font: 19px/23px RobotoR;}
+	.about-div .readbtn, .about-div .readbtn-2, .about-div .readbtn-3, .about-div .readbtn-4, .about-div .readbtn-5, .about-div .readbtn-6, .about-div .readbtn-7{font: 13px/16px RobotoR !important;}
+	.gvg-div h4{font: 18px/27px RobotoR !important;}
+	.gvg-div span{font: 15px/21px RobotoR;}
+}
+
+/*-------Media query for 1024px------*/
+
+@media only screen and (max-width: 1024px){
+	.main_menu .top_logo{width: 25%;}
+	.Main_image{padding-top: 12%;}
+	.main_menu ul{padding: 10px 0 40px;}
+	footer .et-div, footer .nxt-div{width: 15%;}
+	footer .creative-div{width: 70%;}
+	.people-div .peopletab{margin: 2% 5%;}
+	.TEC-div .science-div, .TEC-div .mathe-div{width: 30%;}
+	.about-div .LOBE-Text-2 img{margin-top: 25px; width: 100%;}
+	.about-div .LOBE-Text{width: 100%; float: left;}
+	.about-div .LOBE-diag{width: 100%; float: left;}
+}
+
+/*-------Media query for 768px------*/
+
+@media only screen and (max-width: 768px){
+	#mob-menu{display: block;}
+	.main_menu{background-color: #fff;}
+	.main_menu .top-menu{display: none;}
+	.main_menu ul{width: 100%;}
+	.main_menu ul li{display: block; text-align: center;}
+	.main_menu ul li .sub-menu{
+		display: none;
+    	width: auto;
+    	position: static;
+    	border: none;
+	}
+	.main_menu ul li .sub-menu .col-1, .main_menu ul li .sub-menu .col-2, .main_menu ul li .sub-menu .col-3{width: 100%;}
+	.TEC-div .science-div, .TEC-div .mathe-div{width: 100%; padding: 8px 0;}
+	.about_lab .contacttext, .about_lab .contactmap{width: 100%;}
+	.about_lab .about-div h4:after{width: 6%;}
+	.about_lab .contacttext h4{padding-left: 0; font: 26px/30px 'RobotoR';}
+	.about_lab .contacttext h4:after{left: 0;}
+	.about_lab .contacttext span{padding-left: 0;}
+	.about-div .LOBE-diag img{width: 100%; padding: 20px 0;}
+	.about_lab .overviewtab h5, .about_lab .lobetab h5, .about_lab .tectab h5{font: 25px/29px RobotoR;}
+	.about_lab .overviewtab img, .about_lab .lobetab img, .about_lab .tectab img{top: 23px; width: 40px;}
+	.about_lab .about-div ul li{font: 12px/17px RobotoR;}
+	.about-div .LOBE-Text h2{font: 22px/26px 'Roboto', sans-serif;}
+	.about-div .LOBE-Text h6{font: 19px/24px RobotoR;}
+	.about_lab .LOBE-diag a{font: 11px/16px RobotoR !important;}
+	.about_lab .LOBE-diag .counter-part{padding: 5%;}
+	.about-div .LOBE-Text-2 h6{font: 19px/24px RobotoR;}
+	.about_lab .about-div p{padding: 10px 0 10px;}
+	.about-div .readbtn, .about-div .readbtn-2, .about-div .readbtn-3, .about-div .readbtn-4, .about-div .readbtn-5, .about-div .readbtn-6, .about-div .readbtn-7{padding: 9px 26px; font: 11px/16px RobotoR !important; margin-bottom: 6%;}
+	.about-div .LOBE-Text-2 .hidden-content h5{font: 17px/22px RobotoR;}
+	.about-div .LOBE-Text-2 .hidden-content .child-content ul li{font: 13px/18px RobotoR;}
+	
+}
+
+/*-------Media query for 600px------*/
+
+@media only screen and (max-width: 600px){
+	.main_menu .top_logo{width: 50%;}
+	#mob-menu{padding: 40px 0 30px; font: 28px/32px 'Roboto', sans-serif;}
+	#mob-menu img{
+		width: 9%;
+    	position: relative;
+    	top: 2px;
+	}
+	.about_lab .about-div h4{font: 27px/32px RobotoR; padding-bottom: 10px;}
+	.about_lab .about-div p{font: 15px/19px RobotoR;}
+	.Tab-info .tab h4{font: 22px/26px RobotoR;}
+	.Tab-info .tab-data h4{font: 22px/26px RobotoR;}
+	.Tab-info .tab ul li a{font: 15px/19px RobotoR;}
+	.Tab-info .tab-data .tab-content ul li{font: 15px/19px RobotoR;}
+	.People-Tab .people-div h4{font: 27px/32px RobotoR;}
+	.People-Tab .people-div h4 img{
+		top: 8px;
+    	width: 6%;
+	}
+	.peopletab .peoplename{font: 20px/24px 'Roboto', sans-serif;}
+	.peopletab .peoplework{font: 17px/22px RobotoR;}
+	.peopletab .contact-img{top: -5px;}
+	.peopletab .contact-span{font: 18px/22px RobotoR;}
+	.peopletab .people-title{font: 18px/22px 'Roboto', sans-serif;}
+	.peopletab a{font: 15px/19px RobotoR;}
+	.count-tab .sponsor-div, .count-tab .visit-div{font: 15px/19px RobotoR;}
+	footer .et-div, footer .nxt-div{width: 20%;}
+	footer .creative-div{width: 60%;}
+	footer .creative-div p{font: 15px/19px RobotoR;}
+}
+
+/*-------Media query for 500px------*/
+
+@media only screen and (max-width: 500px){
+	#mob-menu{
+		padding: 15px 0 30px;
+    	font: 17px/32px 'Roboto', sans-serif;
+	}
+	#mob-menu img{top: 1px;}
+	.about_lab .about-div h4{font: 20px/24px RobotoR;}
+	.about_lab .about-div p{font: 12px/19px RobotoR;}
+	.about_lab .about-div h4:after, .People-Tab .people-div h4:after{width: 10%;}
+	.Tab-info .tab{width: 100%;}
+	.Tab-info .tab ul li a{font: 13px/17px RobotoR;}
+	.Tab-info .tab-data h4{font: 20px/24px RobotoR;}
+	.Tab-info .tab-data h4:after{width: 10%;}
+	.Tab-info .tab-data .tab-content ul li{font: 13px/17px RobotoR;}
+	.People-Tab .people-div h4{font: 20px/24px RobotoR;}
+	.People-Tab .people-div h4 img{top: 3px;}
+	.Tab-info .tab-data{width: 95%;}
+	.Tab-info .tab ul li a.active-tab, .Tab-info .tab-data .tab-content ul li{font: 13px/17px RobotoR;}
+	.peopletab .people-img{width: 65% !important;}
+	.peopletab .peoplename{font: 15px/19px 'Roboto', sans-serif;}
+	.peopletab .peoplework{font: 14px/18px RobotoR;}
+	.peopletab .contact-span-email-img{width: 9% !important;}
+	.peopletab .people-title{font: 13px/17px 'Roboto', sans-serif;}
+	.peopletab a{font: 11px/15px RobotoR; padding: 9px 24px;}
+	.count-tab .sponsor-div, .count-tab .visit-div{width: 100%; padding-bottom: 20px;}
+	.count-tab .sponsor-div, .count-tab .visit-div{font: 13px/17px RobotoR;}
+	.count-tab .sponsor-div, .count-tab .visit-div{font: 13px/17px RobotoR;}
+	.count-tab .sponsor-div span{float: left;}
+	footer .et-div, footer .nxt-div{width: 50%;}
+	footer .creative-div{width: 100%;}
+	footer .creative-div p{
+		padding: 14px 10px 20px 20px;
+		font: 13px/17px RobotoR;
+	}
+	.peopletab .contact-img{top: -1px;}
+	.peopletab .contact-span{font: 13px/17px RobotoR;}
+}

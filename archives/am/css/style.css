@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a, a:hover{text-decoration: none;}
+@font-face{
+	src: url("../fonts/Montserrat-Regular.ttf");
+	font-family: Monts-reg;
+}
+@font-face{
+	src: url("../fonts/Montserrat-Bold.ttf");
+	font-family: Monts-bld;
+}
+@font-face{
+	src: url("../fonts/Montserrat-Medium.ttf");
+	font-family: Monts-Med;
+}
+header{
+	background-color: #EDEDED;
+	padding: 60px 0;
+	text-align: center;
+}
+header h1{
+	font: 54px/59px Monts-Med;
+	color: #000;
+}
+header .side-imgs img{width: 25%; position: relative; top: 24%}
+header .side-imgs-2 img{width: 40%; position: relative; top: 15%}
+header .next-img{
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+}
+header .next-img img{width: 30%;}
+.sidepanel{background-color: #fff; padding: 0;}
+.sidepanel ul{list-style: none;}
+.sidepanel ul li a{
+	font: 18px/22px Monts-reg;
+	color: #000;
+	display: block;
+	position: relative;
+	padding: 25px;
+}
+.sidepanel ul li:hover, .active{
+	background-color: #EDEDED;
+}
+.sidecont{background-color: #FBFBFB; padding-top: 20px; padding-bottom: 20px;}
+.sidecont .resources_cont, .sidecont .getting_cont{display: none;}
+.intro_cont h6, .resources_cont h6, .getting_cont h6{
+	font: 20px/24px 'Monts-Med';
+	color: #000;
+	padding-bottom: 8px;
+}
+.intro_cont h4{
+	font: 30px/34px 'Monts-bld';
+	color: #000;
+	padding-bottom: 10px;
+}
+.intro_cont span, .getting_cont span{
+	font: 16px/20px 'Monts-reg';
+	color: #000;
+	display: block;
+}
+.getting_cont span{line-height: 28px;}
+.intro_cont ul, .resources_cont ul, .getting_cont ul{
+	padding: 15px;
+}
+.intro_cont ul li, .resources_cont ul li{
+	font: 16px/20px 'Monts-reg';
+	color: #000;
+	padding: 5px 0;
+}
+.intro_cont, .resources_cont, .getting_cont{padding: 20px;}
+.intro_vid_1{padding-bottom: 50px;}
+.intro_vid_1 span{padding-bottom: 10px;}
+.intro_cont_2 span:nth-child(3){padding-top: 10px;}
+.getting_cont span, .getting_cont img{padding-bottom: 45px;}
+.getting_cont span{padding-bottom: 0px;}
+.getting_cont img{width: 40%;}
+.ins_h6{padding-top: 35px;}
+footer{
+	background-color: #F6F6F6;
+	padding: 20px 0;
+}
+footer img{
+	display: block;
+	margin: 0 auto;
+	width: 45%;
+}
+footer span{
+	font: 18px/22px 'Monts-reg';
+	display: block;
+	position: relative;
+	top: 25%;
+}

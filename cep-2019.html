@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130108276-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-130108276-1');
+	</script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>NextEducation Research Lab</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+		integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<!-- Font Awesome css -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet"> <!-- Roboto Font css -->
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"><!-- Owl Carousel css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"><!-- style css -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css"><!-- style css -->
+	<link rel="stylesheet" href="slider/src/css/lightslider.css" />
+	<style>
+		ul {
+			list-style: none outside none;
+			padding-left: 0;
+			margin: 0;
+		}
+
+		/* .demo .item {} */
+
+		.content-slider li {
+			background-color: #fff;
+			text-align: center;
+			color: #000;
+		}
+
+		.content-slider h3 {
+			margin: 0;
+			padding: 70px 0;
+		}
+
+		.demo {
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+			width: 100%;
+			border: 1px solid #000;
+			/*}gallary*/
+		}
+
+		div.gallery {
+			margin: 5px;
+			border: 1px solid #ccc;
+			float: left;
+			width: 300px;
+		}
+
+		div.gallery:hover {
+			border: 1px solid #777;
+		}
+
+		#bloc1,
+		#bloc2 {
+			display: inline;
+		}
+		/* #block_container{
+			text-align: center;
+		} */
+		#bloc1{
+			background: #ededed;
+		
+		display: inline-block;
+		padding: 15px 20px;
+    font-weight: 600;
+		cursor: pointer;
+		margin-bottom: 10px;
+		border: none;
+		font-size: 25px;
+    font: 25px 'Roboto', sans-serif;]
+    /*color: #222;*/
+		}
+		#bloc1 a{
+			color: #222!important;
+		}
+		#bloc2{
+			cursor: pointer;padding: 15px 20px;font-size: 25px;
+			font: 25px 'Roboto', sans-serif;
+			    
+		}
+		#bloc1:hover{
+			background: gray!important;
+			/* color: #ffffff; */
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		#bloc1 a:hover{
+			color: #ffffff!important;
+			
+		}
+		#bloc2 a:hover{
+			color: #ffffff;
+		}
+		#bloc2:hover{
+			background: gray!important;
+			color: #ffffff!important;
+			text-decoration: none;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		div.gallery img {
+			width: 100%;
+			height: auto;
+		}
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+		}
+
+		table.padded-table td {
+			padding: 10px;
+		}
+
+		#getting table tr:nth-child(even) {
+			background: #E2E2E2
+		}
+
+		tr:nth-child(odd) {
+			background: #CDCDD0
+		}
+
+		/* col:2 {
+			background: #ffffff;
+		} */
+	</style>
+	<script src="slider/src/js/jquery.min.js"></script>
+	<script src="slider/src/js/lightslider.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#content-slider").lightSlider({
+				loop: true,
+				keyPress: true
+			});
+			$('#image-gallery').lightSlider({
+				gallery: true,
+				item: 1,
+				thumbItem: 9,
+				slideMargin: 0,
+				speed: 500,
+				auto: true,
+				loop: true,
+				onSliderLoad: function () {
+					$('#image-gallery').removeClass('cS-hidden');
+				}
+			});
+		});
+	</script>
+	<!-- >
+		Nav Menu Div -->
+	<nav class="main_menu">
+		<div class="width-container clearfix">
+			<div id="mob-menu">MENU &nbsp;<img src="img/menu.png"></div>
+			<!-- <div class="top_logo"><a href="index.html"><img src="img/IIT_Bombay_Logo.png"></a></div> -->
+			<ul class="top-menu">
+				<li><a href="index.html">About Us</a></li>
+				<li><a href="javascript:void(0)" class="projects">Projects <img src="img/downarrow.png"></a>
+					<div class="sub-menu clearfix">
+						<div class="col-1">
+							<ul class="sub-menu1">
+								<li>Emerging Technologies <img src="img/play-arrow1.png">
+
+									<ul>
+										<li>Leap Motion <img src="img/play-arrow1.png">
+											<ul>
+												<a href="javascript:void(0)">
+													<li>G-v-G</li>
+												</a>
+											</ul>
+										</li>
+										<li>Myo Band <img src="img/play-arrow1.png">
+											<ul>
+												<a href="combat.html">
+													<li>CoMBaT</li>
+												</a>
+											</ul>
+										</li>
+										<li>Augmented Reality <img src="img/play-arrow1.png">
+											<ul>
+												<a href="geosolvar.html">
+													<li>GeoSolVAR</li>
+												</a>
+												<a href="stereochem.html">
+													<li>StereoChem</li>
+												</a>
+												<a href="augmath.html">
+													<li>Augmented Maths</li>
+												</a>
+												<a href="thik-before-throw.html">
+													<li>
+														Think b4u Throw
+													</li>
+												</a>
+											</ul>
+										</li>
+										<li>Virtual Reality <img src="img/play-arrow1.png">
+											<ul>
+												<a href="speakup.html">
+													<li>Speak Up</li>
+												</a>
+											</ul>
+										</li>
+										<li>Smartphone Colorimetry<img src="img/play-arrow1.png">
+											<ul>
+												<a href="tcd.html">
+													<li>Titration ColorDarts</li>
+												</a>
+											</ul>
+										</li>
+										<li>Combination Technology <img src="img/play-arrow1.png">
+											<ul>
+												<a href="roadethos.html">
+													<li>RoadEthos</li>
+
+												</a>
+												<a href="dist-tutor.html">
+													<li>DiST Tutor</li>
+
+												</a>
+											</ul>
+										</li>
+										<li>Web based<img src="img/play-arrow1.png">
+											<ul>
+												<a href="geo-maps.html">
+													<li>GeoMaps</li>
+												</a>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>Teacher Capacity Building <img src="img/play-arrow1.png">
+									<ul>
+										<a href="et611tx.html">
+											<li>ET611Tx</li>
+										</a>
+										<a href="et621tx.html">
+											<li>ET621Tx</li>
+										</a>
+										<a href="cep-2019.html">
+											<li>CEP Course</li>
+										</a>
+									</ul>
+								</li>
+								<li>Evaluation Instruments <img src="img/play-arrow1.png">
+									<ul>
+										<a href="lobe.html">
+											<li>LOBE</li>
+										</a>
+										<a href="tec.html">
+											<li>TEC</li>
+										</a>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li><a href="teachervoices.html">Teacher Voices</a></li>
+				<li><a href="Resources.html">Resources</a></li>
+
+				<li><a href="Publications.html">Publications</a></li>
+				<li><a href="Contact-Us.html">Contact Us</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- End Nav Menu Div -->
+	<!-- Main Header Image -->
+	<div class="Main_image">
+		<div class="width-container clearfix">
+			<div class="et-logo">
+				<a href="http://www.et.iitb.ac.in/" target="_blank"><img src="img/et_logo(1).png"></a>
+			</div>
+			<div class="nerl">
+				<img src="img/NERL.jpg">
+			</div>
+			<div class="nxt-logo">
+				<a href="https://www.nexteducation.in/" target="_blank"><img src="img/next_logo-new.png"></a>
+			</div>
+		</div>
+	</div>
+	<div class="Main_image_sub">
+		<div class="container_cep">
+			<a href="http://www.et.iitb.ac.in/" target="_blank"><img src="img/cep_banner_w.png" width="100%"></a>
+			<div class="text_cep">
+				<p>Continuing Education Programme (CEP) - IIT Bombay<br> for<br> Next Education India Pvt. Ltd <br>on
+				</p>
+				<h2>Emerging technologies for effective teaching and learning<br> conducted by Educational Technology,
+					IIT Bombay</h2>
+			</div>
+		</div>
+	</div>
+	<!-- End Main Header Image -->
+	<div class="container">
+		
+
+		<div id="block_container" style="padding-left: 479px;">
+			
+
+			<div id="bloc1">
+				<a href="#">CEP 2019</a> 
+			</div>
+
+			<div id="bloc2">
+				<a href="cep-jan-2020.html">
+					CEP 2020
+				</a>
+			</div>
+			
+
+		</div>
+	</div>
+	<!-- About Lab Div -->
+	<div class="fullblk clearfix">
+		<div class="side-panel">
+			<ul>
+				<li class="side-learn slidepanelactive"><a href="#Learning" class="Learning">Programme Schedule</a></li>
+				<!-- <li class="side-purp"><a href="#Purpose" class="Purpose">Purpose of using G-v-G</a></li> -->
+				<li class="side-res"><a href="#Resources" class="Resources">Photo Gallery</a></li>
+				<li class="sideget"><a href="#Getting" class="Getting">Participating Schools</a></li>
+			</ul>
+		</div>
+		<div class="about_lab GVG-block">
+			<div class="width-container">
+				<div class="about-div clearfix gvg-div">
+					<div id="Learning">
+						<div class="container">
+							<table rules="all" class="padded-table">
+								<col width="1">
+								<col width="100">
+								<col width="200">
+								<col width="100">
+								<thead>
+									<tr>
+										<th scope="col" style="color: #000;background: #fff;">Sessions</th>
+										<th scope="col" style="color: #000;background: #fff;">Day 1 - 19 Sep</th>
+										<th scope="col" style="color: #000;background: #fff;">Day 2 - 20 Sep</th>
+										<th scope="col" style="color: #000;background: #fff;">Day 3 - 21 Sep</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td bgcolor="#FBFBFB">Session 1</td>
+										<td bgcolor="#CDCDD0">
+											Welcome Note<br>
+											Prof. Sridhar Iyer<br><br>
+											Welcome Note<br>
+											Mr. Beas Dev Ralhan<br><br>
+											Introduction to Ed tech at IITB<br>
+											Prof.Sridhar Iyer<br>
+											<a href="pdf/cep-pdf/1-Intro-Next-CEP-Sep2019.pdf" target="_blank">
+												<img src="img/pdf_cep.png" width="8%"></a>&nbsp;
+											<!-- <a href="" target="_blank">
+											<img src="img/vid_cep.png" width="8%"></a> -->
+										</td>
+										<td bgcolor="#E2E2E2">Effective integration of technologies<br>
+											Prof. Sahana Murthy<br>
+											<a href="pdf/cep-pdf/2-EffectiveIntegration-Next-CEP-Sep2019.pdf"
+												target="_blank">
+												<img src="img/pdf_cep.png" width="5%">
+											</a>&nbsp;
+											<!-- <a href="" target="_blank">
+														<img src="img/vid_cep.png" width="5%">
+											</a> -->
+										</td>
+										<td bgcolor="#CDCDD0">Overview of Learning Analytics<br>
+											Prof. Sridhar Iyer<br>
+											<a href="pdf/cep-pdf/6-LA-Next-CEP-Sep2019.pdf" target="_blank">
+												<img src="img/pdf_cep.png" width="10%">
+											</a>&nbsp;
+											<!-- <a href="" target="_blank"><img src="img/vid_cep.png" width="10%"></a> -->
+										</td>
+									</tr>
+									<tr>
+										<td rowspan="4" bgcolor="#FBFBFB">Session 2</td>
+										<td rowspan="4" bgcolor="#CDCDD0">Demonstration of Emerging Technologies for
+											Teaching and Learning (Developend at Next Research Lab, IIT Bombay)<br>
+											ET Research Scholars and POst-Doctoral Researchers<br>
+											<!-- <a href="" target="_blank"><img src="img/pdf_cep.png" width="8%"></a>&nbsp; -->
+											<!-- <a href="" target="_blank"><img src="img/vid_cep.png" width="8%"></a> -->
+										</td>
+										<td bgcolor="#E2E2E2">Learner-centered approach for technology intergration
+											<br>Prof.Sahana Murthy<br>Dr. Gargi Banerjee<br>
+											<a href="pdf/cep-pdf/3-EffectiveIntegration-Next-CEP-Sep2019.pdf"
+												target="_blank">
+												<img src="img/pdf_cep.png" width="5%">
+											</a>&nbsp;
+											<!-- <a href="" target="_blank"><img src="img/vid_cep.png" width="5%"></a> -->
+										</td>
+										<td rowspan="4" bgcolor="#CDCDD0">Panel Discussion: "How to inculate 21st
+											century skills through the curriculum" <br>Moderator: Prof. Sridhar Iyer<br>
+											<a href="pdf/cep-pdf/7-PanelDiscussion-Next-CEP-Sep2019.pdf"
+												target="_blank">
+												<img src="img/pdf_cep.png" width="10%">
+											</a>&nbsp;
+											<!-- <a href="" target="_blank"><img src="img/vid_cep.png" width="10%"></a> -->
+										</td>
+									</tr>
+									<tr>
+										<td bgcolor="#E2E2E2">How to select "good quality" technology-based resources
+											(LOBE Instrument)<br>Dr. Gargi Banerjee<br>
+											<a href="pdf/cep-pdf/3.2Select good-quality.pdf" target="_blank">
+												<img src="img/pdf_cep.png" width="5%">
+											</a>&nbsp;
+											<!-- <a href="" target="_blank"><img src="img/vid_cep.png" width="5%"></a> -->
+										</td>
+									</tr>
+									<tr>
+										<td bgcolor="#E2E2E2">Group Problem Solving onEmerging technologies as solution
+											to teaching-learning challenges<br>Moderated by instructors<br>
+											<a href="pdf/cep-pdf/4-GroupDiscussion-Next-CEP-Sep2019.pdf"
+												target="_blank">
+												<img src="img/pdf_cep.png" width="5%">
+											</a>&nbsp;
+											<!-- <a href="" target="_blank"><img src="img/vid_cep.png" width="5%"></a> -->
+										</td>
+									</tr>
+									<tr>
+										<td bgcolor="#E2E2E2">Group Presentations<br>Moderated by instructors<br>
+											<!-- <a href="" target="_blank">
+										<img src="img/pdf_cep.png" width="5%">
+									</a> -->
+											&nbsp;
+											<!-- <a href="" target="_blank"><img src="img/vid_cep.png" width="5%"></a> -->
+										</td>
+									</tr>
+									<!-- <tr>
+														<th scope="row">Session 3</th>
+														<td><br>
+														</td>
+														<td></td>
+														<td ></td>
+							</tr> -->
+									<tr>
+										<td  rowspan="2" bgcolor="#FBFBFB">Session 3</td>
+										<td rowspan="2" bgcolor="#CDCDD0">IIT Bombay Tour<br>ET Reaserch Scholars
+											<br>
+											<!-- <a href="" target="_blank"><img src="img/pdf_cep.png" width="8%"></a>&nbsp; -->
+											<!-- <a href="" target="_blank"><img src="img/vid_cep.png" width="8%"></a> -->
+										</td>
+										<td bgcolor="#E2E2E2">
+											Massive Open Online Course (MOOC)-Why/What/How<br>
+											Dr. Veenita Shah<br>
+											<a href="pdf/cep-pdf/5-MOOCs_CEP_20.9.19_VS.pdf" target="_blank">
+												<img src="img/pdf_cep.png" width="5%">
+											</a>&nbsp;
+											<!-- <a href="" target="_blank"><img src="img/vid_cep.png" width="5%">
+									</a> -->
+										</td>
+										<td rowspan="2" bgcolor="#CDCDD0">Adaptive Learning Next Education Session<br>
+											Next Education<br>
+											<!-- <a href="" target="_blank"><img src="img/pdf_cep.png" width="10%"></a>&nbsp; -->
+											<!-- <a href="" target="_blank"><img src="img/vid_cep.png" width="10%"></a> -->
+										</td>
+									</tr>
+									<tr style="background-color:#E2E2E2">
+										<td>
+											IIT Bombay-Next Education Teacher Training MOOCs<br>Dr. Gargi Banerjee<br>
+											<a href="pdf/cep-pdf/5.2- ET611- Next-CEP.pdf" target="_blank">
+												<img src="img/pdf_cep.png" width="5%">
+											</a>&nbsp;
+											<!-- <a href="" target="_blank"><img src="img/vid_cep.png" width="5%"></a> -->
+										</td>
+									</tr>
+									<tr>
+										<td style="background-color:#FBFBFB">Session 4</td>
+										<td style="background-color:#CDCDD0">
+										</td>
+										<td style="background-color:#E2E2E2">ERP/LMS Next Education Session<br>
+											Next Education
+											<br>
+											<!-- <a href="" target="_blank"><img src="img/pdf_cep.png" width="5%"></a>&nbsp; -->
+											<!-- <a href="" target="_blank"><img src="img/vid_cep.png" width="5%"></a> -->
+										</td>
+										<td style="background-color:#CDCDD0">Certificate Distribution<br>Prof. Shridhar
+											Iyer<br> Next
+											Education</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="gvg-content">
+						<div class="gvg-cont-div">
+							<div id="Resources">
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/1.jpg">
+										<img src="pdf/cep-gallery/1.jpg" width="600" height="400">
+									</a>
+								</div>
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/2.jpg">
+										<img src="pdf/cep-gallery/2.jpg" width="600" height="400">
+									</a>
+								</div>
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/21.jpg">
+										<img src="pdf/cep-gallery/21.jpg" width="600" height="400">
+									</a>
+								</div>
+
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/20.jpg">
+										<img src="pdf/cep-gallery/20.jpg" width="600" height="400">
+									</a>
+								</div>
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/5.jpg">
+										<img src="pdf/cep-gallery/5.jpg" width="600" height="400">
+									</a>
+								</div>
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/9.jpg">
+										<img src="pdf/cep-gallery/9.jpg" width="600" height="400">
+									</a>
+								</div>
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/23.jpg">
+										<img src="pdf/cep-gallery/23.jpg" width="600" height="400">
+									</a>
+								</div>
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/37.jpg">
+										<img src="pdf/cep-gallery/37.jpg" width="600" height="400">
+									</a>
+								</div>
+
+
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/31.jpg">
+										<img src="pdf/cep-gallery/31.jpg" width="600" height="400">
+									</a>
+								</div>
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/17.jpg">
+										<img src="pdf/cep-gallery/17.jpg" width="600" height="400">
+									</a>
+								</div>
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/24.jpg">
+										<img src="pdf/cep-gallery/24.jpg" width="600" height="400">
+									</a>
+								</div>
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/25.jpg">
+										<img src="pdf/cep-gallery/25.jpg" width="600" height="400">
+									</a>
+								</div>
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/33.jpg">
+										<img src="pdf/cep-gallery/33.jpg" width="600" height="400">
+									</a>
+								</div>
+
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/16.jpg">
+										<img src="pdf/cep-gallery/16.jpg" width="600" height="400">
+									</a>
+								</div>
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/36.jpg">
+										<img src="pdf/cep-gallery/36.jpg" width="600" height="400">
+									</a>
+								</div>
+								<div class="gallery">
+									<a target="_blank" href="pdf/cep-gallery/38.jpg">
+										<img src="pdf/cep-gallery/38.jpg" width="600" height="400">
+									</a>
+								</div>
+
+
+								<!-- <h4>Resources required</h4>
+				<ul>
+											<li>Leap motion controller – gesture based input interface</li>
+											<li>Web browser</li>
+											<li>Leap motion controller drivers</li>
+				</ul>
+				<div class="more-cont">
+											<ul>
+																		<li>Requirements needed to use G-v-G</li>
+																		<span style="text-align: left !important;" >G-v-G requires the Leap Motion Device to recognize gestures. You can purchase it <a href="">here</a></span>
+											</ul>
+											<ul>
+																		<li>Additional Requirements</li>
+																		<span style="text-align: left !important;">Leap motion driver for:</span>
+																		<ul class="OS-sys">
+																								<li>Windows :<a href="https://www.leapmotion.com/setup/desktop/windows" target="_blank">https://www.leapmotion.com/setup/desktop/windows</a></li>
+																								<li>Linux :<a href="https://www.leapmotion.com/setup/desktop/linux" target="_blank">https://www.leapmotion.com/setup/desktop/linux</a></li>
+																								<li>Mac :<a href="https://www.leapmotion.com/setup/desktop/osx" target="_blank">https://www.leapmotion.com/setup/desktop/osx</a></li>
+																	</ul>
+											</ul>
+											
+											<span style="text-align: left !important;" id="spanpadd">Minimum system requirements for Leap motion: <a href="https://support.leapmotion.com/hc/enus/articles/223783668" target="_blank">https://support.leapmotion.com/hc/enus/articles/223783668.</a></span>
+				</div> -->
+							</div>
+							<div id="Getting">
+
+								<table rules="row" rules="cols" cellpadding="10" class="padded-table">
+									<tr>
+										<th colspan="3" style="background-color: #fff!important;"><strong>Participating
+												Schools</strong></th>
+									</tr>
+									<tr>
+										<td>Lodha World School</td>
+										<td> </td>
+										<td>Ms. Asha Latha</td>
+									</tr>
+									<tr>
+										<td>Lodha World School Lakeshore</td>
+										<td> </td>
+										<td>Ms. Meera Ramanathan</td>
+									</tr>
+									<tr>
+										<td>Bhavan's School</td>
+										<td> </td>
+										<td>Ashish Kumar Sarkar</td>
+									</tr>
+									<tr>
+										<td>AKash InterNational School</td>
+										<td> </td>
+										<td>Mr Harish Rawal</td>
+									</tr>
+									<tr>
+										<td>Sacret Heart Public school</td>
+										<td> </td>
+										<td>Mr Shiju Thomas</td>
+									</tr>
+									<tr>
+										<td>Chavara public school</td>
+										<td> </td>
+										<td>Mr Mathew Varghese Kareethara</td>
+									</tr>
+									<tr>
+										<td>Om Public School</td>
+										<td> </td>
+										<td>Vijeta Sinha</td>
+									</tr>
+									<tr>
+										<td>S N public school</td>
+										<td> </td>
+										<td>Babu. N. G</td>
+									</tr>
+									<tr>
+										<td>Bharatiya Vidya Bhavan School</td>
+										<td> </td>
+										<td>Sunil Chako</td>
+									</tr>
+									<tr>
+										<td>Saikrishna Public School</td>
+										<td> </td>
+										<td>R.Radhakrishnan </td>
+									</tr>
+									<tr>
+										<td>Jayshree Periwal School, Jaipur</td>
+										<td> </td>
+										<td>Karuppiah Peterkin Paulraj </td>
+									</tr>
+									<tr>
+										<td>Jayshree Periwal School, Jaipur</td>
+										<td> </td>
+										<td>Parita Sharma </td>
+									</tr>
+									<tr>
+										<td>Learning Temple Eng Medium High School.</td>
+										<td> </td>
+										<td>MR Naresh </td>
+									</tr>
+									<tr>
+										<td>Shishu Vidya Niketan School</td>
+										<td> </td>
+										<td>Mr. Kundan singh</td>
+									</tr>
+									<tr>
+										<td>Bright Land school</td>
+										<td> </td>
+										<td>Mr. Abhinav Thukral </td>
+									</tr>
+									<tr>
+										<td>Grace International school</td>
+										<td> </td>
+										<td>Dr RAJU DAVIS</td>
+									</tr>
+									<tr>
+										<td>Lakshmi Narayana</td>
+										<td> </td>
+										<td>Mr. K. R. Sandeep Narayanan</td>
+									</tr>
+									<tr>
+										<td>Manappuram Foundation</td>
+										<td> </td>
+										<td>Mr.Pavel Podder </td>
+									</tr>
+									<tr>
+										<td>St.Vincent Palloti</td>
+										<td> </td>
+										<td>Mr. Paul A T </td>
+									</tr>
+									<tr>
+										<td>Parammekavu</td>
+										<td> </td>
+										<td>Ms.Rama Rakunath </td>
+									</tr>
+									<tr>
+										<td>Chinmaya Vidyalaya</td>
+										<td> </td>
+										<td>Ms.Shoba Menon </td>
+									</tr>
+									<tr>
+										<td>Sree sarada Vidyalaya</td>
+										<td> </td>
+										<td> Mr Jacob George C</td>
+									</tr>
+									<tr>
+										<td>Cambridge International, Sangrur</td>
+										<td> </td>
+										<td>Dr. Seema Arora</td>
+									</tr>
+									<tr>
+										<td>Cambridge International, Sangrur</td>
+										<td> </td>
+										<td>Mr. Shiv Arya </td>
+									</tr>
+									<tr>
+										<td>DON Bosco TUMKUR</td>
+										<td> </td>
+										<td>Tomy Chirackal </td>
+									</tr>
+									<tr>
+										<td>DON Bosco ChitraDurga</td>
+										<td> </td>
+										<td>Santhosh Mathew </td>
+									</tr>
+									<tr>
+										<td>Sinhgad Springdale school, chandivali</td>
+										<td> </td>
+										<td>Shweta Batra </td>
+									</tr>
+
+									<tr>
+										<td>Indian Cambridge School</td>
+										<td> </td>
+										<td>Mr. Sushil Sharma </td>
+									</tr>
+									<tr>
+										<td>The Indian public school</td>
+										<td> </td>
+										<td>Ms. Piyali Basu Kar </td>
+									</tr>
+									<tr>
+										<td>Mukundapuram Public School</td>
+										<td> </td>
+										<td>Mr.Aakash Antony </td>
+									</tr>
+									<tr>
+										<td>Adhiparasakthi Matriculation
+											Higher Secondary School</td>
+										<td> </td>
+										<td>Mr. Selvakumar </td>
+									</tr>
+									<tr>
+										<td>Sanjay Ghodawat school</td>
+										<td> </td>
+										<td>Miss Lorraine Dmello </td>
+									</tr>
+									<tr>
+										<td>St.Thomas school</td>
+										<td> </td>
+										<td>Father.Julians </td>
+									</tr>
+									<tr>
+										<td>St.Michel Matric hr sec school</td>
+										<td> </td>
+										<td>Mr.Mathivadanan </td>
+									</tr>
+									<tr>
+										<td>Dnyan Ganga Education Trust</td>
+										<td> </td>
+										<td>Mrs. Sangita Dwivedi </td>
+									</tr>
+									<tr>
+										<td>Yuvabharathi Public School</td>
+										<td> </td>
+										<td>Geetha Jayachandran </td>
+									</tr>
+									<tr>
+										<td>Sri Mahalakshmi matric hr sec school</td>
+										<td> </td>
+										<td>Mrs.Aruna L </td>
+									</tr>
+									<tr>
+										<td>Dalmia Vidya Mandir</td>
+										<td> </td>
+										<td>Capt.T.M.Christudass Pillai </td>
+									</tr>
+									<tr>
+										<td>Chennai Public school</td>
+										<td> </td>
+										<td>Mrs.Asha Nathan </td>
+									</tr>
+									<tr>
+										<td>M.M.International School</td>
+										<td> </td>
+										<td>Mr. Sudhanshu Gupta </td>
+									</tr>
+									<tr>
+										<td>SKV Vidyashram</td>
+										<td> </td>
+										<td>Mrs. S. Premalatha </td>
+									</tr>
+									<tr>
+										<td>Alpha School (CBSE)</td>
+										<td> </td>
+										<td>Mrs. Reena Alfred </td>
+									</tr>
+									<tr>
+										<td>Alpha International School</td>
+										<td> </td>
+										<td>Nalini Ravi </td>
+									</tr>
+									<tr>
+										<td>B.R.J.D Public School</td>
+										<td> </td>
+										<td>Dinesh Pratap Singh </td>
+									</tr>
+									<tr>
+										<td>Stanford international school</td>
+										<td> </td>
+										<td>Mrs.sadhna walia </td>
+									</tr>
+									<tr>
+										<td>Indore Public School(IPS)</td>
+										<td> </td>
+										<td>MANOJ KULSHRESTHA </td>
+									</tr>
+									<tr>
+										<td>Bhavans Rajaji Vidhyashram</td>
+										<td> </td>
+										<td>Mrs. A.M. Deepa priya </td>
+									</tr>
+									<tr>
+										<td>The Emerald Heights</td>
+										<td> </td>
+										<td>Mrs. Sangeeta Tyagi </td>
+									</tr>
+									<tr>
+										<td>Diya Academy of Learning</td>
+										<td> </td>
+										<td>Mr. Nayaz Ahmed </td>
+									</tr>
+
+									<tr>
+										<td>BITS Pilani,Vidhya Niketan Birla Public School </td>
+										<td> </td>
+										<td>Mr. Prayag Singh Rajpurohit </td>
+									</tr>
+									<tr>
+										<td>BITS Pilani,Vidhya Niketan Birla Public School</td>
+										<td> </td>
+										<td>Mr. Simanchal Nayak </td>
+									</tr>
+									<tr>
+										<td>Swami Vivekanand</td>
+										<td> </td>
+										<td>Meenakshi Ajaykumar Bhardwaj </td>
+									</tr>
+									<tr>
+										<td>Triveni Public School</td>
+										<td> </td>
+										<td>Ranjani Kumari K </td>
+									</tr>
+									<tr>
+										<td>Avk international residential school</td>
+										<td> </td>
+										<td>Dr.S.Subramanian </td>
+									</tr>
+									<tr>
+										<td>Akshara International School</td>
+										<td> </td>
+										<td>Mrs. Sonali Balwatkar </td>
+									</tr>
+									<tr>
+										<td>Ideal Jawa Rotary school</td>
+										<td> </td>
+										<td>Veena SA </td>
+									</tr>
+									<tr>
+										<td>Vijay Vittala Educational institution</td>
+										<td> </td>
+										<td>Asha SP </td>
+									</tr>
+									<tr>
+										<td>The Orbis School</td>
+										<td> </td>
+										<td>Mrs. Sharda Rao </td>
+									</tr>
+									<tr>
+										<td>Pawar Public school</td>
+										<td> </td>
+										<td>Jaya Gujaran </td>
+									</tr>
+									<tr>
+										<td>C.P Goenka</td>
+										<td> </td>
+										<td>Jayshree Kumar </td>
+									</tr>
+									<tr>
+										<td></td>
+										<td> </td>
+										<td>Asha Narayanan </td>
+									</tr>
+
+
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="backtotop">
+				<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/top.png"></button>
+			</div>
+		</div>
+	</div>
+	<!-- End About Lab Div -->
+	<div class="demo">
+		<div class="item">
+			<ul id="content-slider" class="content-slider">
+				<li>
+					<div class="container_slider">
+						<img src="img/slider_img1.png">
+						<div class="centered_text_slider">
+							<strong>
+								“We all will cherish the memory of these three days for a long period of time till we
+								meet the team for the second level of the course. The responsibility also lies with us
+								to implement at least a few strategies in our schools.”
+
+							</strong>
+							<br><br>
+							<i>- The Indian Public School</i>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="container_slider">
+						<img src="img/slider_img1.png">
+						<div class="centered_text_slider">
+							<strong>
+								“Thanks a lot to Next Education and IIT team for successfully organising this 3-day
+								program. It led us to realm of innovative teaching-learning experience.”
+							</strong>
+							<br><br>
+							<i>- Don Bosco School, Tumkar</i>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="container_slider">
+						<img src="img/slider_img1.png">
+						<div class="centered_text_slider">
+							<strong>
+								“Words are not enough to thank and appreciate IIT Bombay and Next Education team for
+								your efforts being taken to educate us on effective use of technology in the learning
+								process.”
+							</strong>
+							<br><br>
+							<i>- Shree Narayana Public School, Kollam</i>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="container_slider">
+						<img src="img/slider_img1.png">
+						<div class="centered_text_slider">
+							<strong>
+								“I leave the IITB campus with a sense of satisfaction. Thank you for the painstaking
+								effort you have make sure that our program goes well.”
+							</strong>
+							<br><br>
+							<i>- Don Bosco School, Bangalore</i>
+						</div>
+					</div>
+				</li>
+				<!-- <li>
+	<div class="container_slider">
+		<img src="img/slider_img1.png">
+		<div class="centered_text_slider"><strong>I think the workshop was great, i learned a lot,<br> Continuing Education Programme (CEP)<br> IIT Bombay </strong><br><br><i>- School teacher, Kendriya Vidyalaya</i></div>
+	</div>
+</li>
+<li>
+	<div class="container_slider">
+		<img src="img/slider_img1.png">
+		<div class="centered_text_slider"><strong>I think the workshop was great, i learned a lot,<br> Continuing Education Programme (CEP)<br> IIT Bombay </strong><br><br><i>- School teacher, Kendriya Vidyalaya</i></div>
+	</div>
+</li> -->
+			</ul>
+		</div>
+	</div>
+	<!-- Footer Tab -->
+	<div class="count-tab">
+		<div class="width-container clearfix">
+			<div class="visit-div">
+				<span><strong>Visitors Count</strong> <img border="0"
+						src="http://cc.amazingcounters.com/counter.html?i=3220904&c=9663025" alt="visitors"> Since
+					2018</span>
+			</div>
+			<div class="sponsor-div">
+				<span><strong>Sponsor: </strong>NextEducation India Private Ltd.</span>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="width-container clearfix">
+			<div class="et-div">
+				<img src="img/IIT_Bombay_Logo.png">
+			</div>
+			<div class="creative-div">
+				<p>Contents in this page are licensed under <b>Creative Commons-Attribution 4.0 International
+						License</b>. You are free to use, distribute and modify it,including for commercial purposes,
+					provided you acknowledge the source.</p>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Tab -->
+	</body>
+	<script>
+		$(document).ready(function () {
+			$(".link-1").click(function () {
+				$("#second, #third").hide();
+				$("#first").show();
+				$(".link-1").addClass("active-tab");
+				$(".link-2, .link-3").removeClass("active-tab");
+			});
+			$(".link-2").click(function () {
+				$("#first, #third").hide();
+				$("#second").show();
+				$(".link-2").addClass("active-tab");
+				$(".link-1, .link-3").removeClass("active-tab");
+			});
+			$(".link-3").click(function () {
+				$("#second, #first").hide();
+				$("#third").show();
+				$(".link-3").addClass("active-tab");
+				$(".link-1, .link-2").removeClass("active-tab");
+			});
+			// for Teacher/Researcher/Developer Corner
+			$(".teacher-corner").click(function () {
+				$(this).addClass("Onclick-corner");
+				$(".researcher-corner, .developer-corner").removeClass("Onclick-corner");
+				$(".teacher-tab").fadeIn();
+				$(".researcher-tab, .developer-tab").fadeOut();
+			})
+			$(".researcher-corner").click(function () {
+				$(this).addClass("Onclick-corner");
+				$(".teacher-corner, .developer-corner").removeClass("Onclick-corner");
+				$(".researcher-tab").fadeIn();
+				$(".teacher-tab, .developer-tab").fadeOut();
+			})
+			$(".developer-corner").click(function () {
+				$(this).addClass("Onclick-corner");
+				$(".teacher-corner, .researcher-corner").removeClass("Onclick-corner");
+				$(".developer-tab").fadeIn();
+				$(".teacher-tab, .researcher-tab").fadeOut();
+			})
+		});
+		$(document).ready(function () {
+			$(".projects").click(function () {
+				$(".sub-menu").slideToggle();
+			});
+		});
+		$(document).ready(function () {
+			$(".People-heading").click(function () {
+				$(".People-slide").slideToggle();
+			});
+		});
+		$(document).ready(function () {
+			$("#mob-menu").click(function () {
+				$(".top-menu").slideToggle();
+			});
+		});
+		$(document).ready(function () {
+			$(".Learning").click(function () {
+				$("#Learning").fadeIn();
+				$("#Purpose, #Getting, #Resources").fadeOut();
+				$(".side-learn").addClass('slidepanelactive');
+				$(".side-purp, .side-res, .sideget").removeClass('slidepanelactive');
+			});
+			$(".Purpose").click(function () {
+				$("#Purpose").fadeIn();
+				$("#Learning, #Getting, #Resources").fadeOut();
+				$(".side-purp").addClass('slidepanelactive');
+				$(".side-learn, .side-res, .sideget").removeClass('slidepanelactive');
+			});
+			$(".Resources").click(function () {
+				$("#Resources").fadeIn();
+				$("#Purpose, #Getting, #Learning").fadeOut();
+				$(".side-res").addClass('slidepanelactive');
+				$(".side-learn, .side-purp, .sideget").removeClass('slidepanelactive');
+			});
+			$(".Getting").click(function () {
+				$("#Getting").fadeIn();
+				$("#Purpose, #Learning, #Resources").fadeOut();
+				$(".sideget").addClass('slidepanelactive');
+				$(".side-learn, .side-purp, .side-res").removeClass('slidepanelactive');
+			});
+		});
+	</script>
+
+</html>
