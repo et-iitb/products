@@ -85,12 +85,12 @@
 	
 }
 .main_menu .top_logo{display: inline-block;}
-.main_menu .top_logo img{ width: 40%;}
+.main_menu .top_logo img{ width: 20%;}
 .main_menu ul{
 	list-style: none;
 	display: inline-block;
-	float: right;
-	/*padding: 22px 0 22px;*/
+
+	padding: 22px 0 22px;
 }
 
 /*content padding left*/
@@ -99,7 +99,7 @@
 }
 .main_menu ul li{
 	display: inline-block;
-	padding: 20px 40px;
+	padding: 20px 20px;
 	position: relative;
 }
 .main_menu ul li a{
@@ -252,7 +252,7 @@
 /*------End Main Menu------*/
 
 /*------Header Image------*/
-.Main_image{padding-top: 4.5%; background-color: #eee;}
+.Main_image{padding-top: 2.5%; background-color: #eee;}
 .Main_image .et-logo, .Main_image .nxt-logo{
 	width: 20%;
 	float: left;
@@ -1040,7 +1040,7 @@ footer .creative-div p{
 	float: right;
 	/*height: 65vh;
 	overflow-y: scroll; */
-	padding-top: 0;
+	padding-top: 10;
 }
 .about_lab .gvg-div h4{
 	font: 22px/26px RobotoR;
